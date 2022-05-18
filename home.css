@@ -1,0 +1,76 @@
+.headerTop {
+    background-color: black;
+    height: 40px;
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+}
+
+body {
+    margin: 0;
+}
+
+.homeButton {
+    background-color: none;
+    background: none;
+    border: none;
+    cursor: pointer;
+    color: white;
+    font-weight: bold;
+}
+
+.menuImage {
+    padding: 10px;
+    height: 20px;
+    width: 20px;
+    cursor: pointer;
+    padding-right: 6px;
+}
+
+.registerButton {
+    background-color: none;
+    background: none;
+    border: none;
+    cursor: pointer;
+    color: white;
+    font-weight: bold;
+}
+
+.registerButton:hover {
+    border-bottom: 1px solid white;
+}
+
+.menuButton {
+    background-color: none;
+    background: none;
+    border: none;
+    cursor: pointer;
+    color: white;
+    font-weight: bold;
+    padding-left: 0;
+}
+
+.Menu {
+    display: flex;
+    align-items: center;
+}
+
+.registerButton {
+    background-color: none;
+    background: none;
+    border: none;
+    cursor: pointer;
+    color: white;
+    font-weight: bold;
+}
+
+.searchImage {
+    width: 20px;
+    height: 20px;
+    padding: 5px;
+}
+
+.FAQS {
+    display: flex;
+    align-items: center;
+}
