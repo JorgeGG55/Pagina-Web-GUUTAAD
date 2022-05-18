@@ -1,13 +1,28 @@
 .headerTop {
     background-color: black;
-    height: 40px;
+    height: 50px;
     justify-content: space-between;
     display: flex;
     align-items: center;
 }
 
 body {
+    background-color: lightblue;
     margin: 0;
+}
+
+h1 {
+    margin-left: 420px;
+    color: white;
+}
+
+.colorTitle {
+    color: lightblue;
+}
+
+.title {
+    display: flex;
+    align-items: center;
 }
 
 .homeButton {
@@ -19,25 +34,35 @@ body {
     font-weight: bold;
 }
 
+.homeButton:hover {
+    font-size: 15px;
+    transition: all 0.5s ease;
+}
+
 .menuImage {
-    padding: 10px;
-    height: 20px;
-    width: 20px;
+    padding-left: 10px;
+    height: 35px;
+    width: 40px;
     cursor: pointer;
     padding-right: 6px;
 }
 
-.registerButton {
-    background-color: none;
-    background: none;
-    border: none;
-    cursor: pointer;
-    color: white;
-    font-weight: bold;
+.menuImage:hover {
+    width: 42px;
+    height: 38px;
+    transition: all 0.1s ease;
 }
 
-.registerButton:hover {
-    border-bottom: 1px solid white;
+.registerImage {
+    height: 20px;
+    width: 20px;
+    cursor: pointer;
+}
+
+.registerImage:hover {
+    width: 22px;
+    height: 22px;
+    transition: all 0.1s ease;
 }
 
 .menuButton {
@@ -62,15 +87,137 @@ body {
     cursor: pointer;
     color: white;
     font-weight: bold;
-}
-
-.searchImage {
-    width: 20px;
-    height: 20px;
-    padding: 5px;
+    padding: 0;
 }
 
 .FAQS {
     display: flex;
     align-items: center;
+    padding: 10px;
+}
+
+.barra {
+    color: white;
+    margin-left: 8px;
+    margin-right: 8px;
+    font-size: 25px;
+}
+
+.bolsaCompra {
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+}
+
+.bolsaCompra:hover {
+    width: 22px;
+    height: 22px;
+    transition: all 0.1s ease;
+}
+
+.helpImage {
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+}
+
+.helpImage:hover {
+    width: 22px;
+    height: 22px;
+    transition: all 0.1s ease;
+}
+
+.containerCards {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.card {
+    padding: 10px;
+    margin-right: 50px;
+    margin-top: 100px;
+    background-image: url(https://www.hola.com/fashion/imagenes/belleza/2019091768050/mariano-di-vaio-fragancia-masculina-dolce-gabbana/0-289-926/dolce-gabbana-k-z.jpg);
+    background-size: cover;
+    background-position: center;
+    width: 400px;
+    height: 600px;
+    cursor: pointer;
+    overflow: hidden;
+    transition: transform .2s;
+}
+
+.card:hover {
+    filter: brightness(50%);
+    transform: scale(1.02);
+}
+
+.card2 {
+    padding: 10px;
+    margin-right: 50px;
+    margin-top: 100px;
+    background-image: url(https://cdn.pixabay.com/photo/2021/03/21/23/06/portrait-6113319_960_720.jpg);
+    background-size: cover;
+    background-position: center;
+    width: 400px;
+    height: 600px;
+    cursor: pointer;
+    transition: transform .2s;
+    overflow: hidden;
+}
+
+.card2:hover {
+    filter: brightness(50%);
+    transform: scale(1.02);
+}
+
+.card3 {
+    padding: 10px;
+    margin-top: 100px;
+    background-image: url(https://i.pinimg.com/550x/c6/db/91/c6db91d97da7f672b3a3559204895c04.jpg);
+    background-size: cover;
+    background-position: center;
+    width: 400px;
+    height: 600px;
+    cursor: pointer;
+    transition: transform .2s;
+    overflow: hidden;
+}
+
+.card3:hover {
+    filter: brightness(50%);
+    transform: scale(1.02);
+}
+
+.tall {
+    height: 600px;
+}
+
+.searchImage {
+    width: 20px;
+    height: 20px;
+    padding-right: 5px;
+    cursor: pointer;
+}
+
+.searchBar {
+    display: flex;
+    background-color: white;
+    width: 300px;
+    height: 25px;
+    border-radius: 10px;
+    align-items: center;
+}
+
+.searchInput {
+    all: unset;
+    font: 16px system-ui;
+    color: black;
+    height: 100%;
+    width: 100%;
+    padding: 6px 10px;
+}
+
+::placeholder {
+    color: black;
 }
