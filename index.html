@@ -41,7 +41,11 @@
     function closeSidebar() {
         console.log('sidebar');
         document.querySelector('.sidebar').classList.remove('open');
-    } 
+    }
+
+    function PaginaHombres() {
+        window.open("index2.html");
+    }
 </script>
 
 <body>
@@ -86,27 +90,109 @@
                                 src="https://cdns.iconmonstr.com/wp-content/releases/preview/2017/240/iconmonstr-x-mark-9.png"
                                 width="24" height="24">
                         </div>
+                        <div class="firstsInputs">
+                            <input id="name" type="text" class="inputStyle inputWidthName" placeholder="Nombre">
+                            <input id="name" type="text" class="inputStyle inputWidthName" placeholder="Apellido">
+                        </div>
+                        <div class="secondsInputs">
+                            <input id="mobileNumber" type="text" class="inputStyle inputWidthMobile"
+                                placeholder="Email">
+                            <input id="password" type="password" class="inputStyle inputWidthMobile"
+                                placeholder="Nueva Contraseña">
+                        </div>
+                        <div class="selectTitles">
+                            <h2>Fecha de nacimiento</h2>
+                            <div class="birthdayContainer">
+                                <select name="birthday_month" class="birthdaySelector" id="birthday_month">
+                                    <option value="1">Jan</option>
+                                    <option value="2">Feb</option>
+                                    <option value="3">Mar</option>
+                                    <option value="4">Apr</option>
+                                    <option value="5">May</option>
+                                    <option value="6">Jun</option>
+                                    <option value="7">Jul</option>
+                                    <option value="8">Aug</option>
+                                    <option value="9">Sep</option>
+                                    <option value="10">Oct</option>
+                                    <option value="11">Nov</option>
+                                    <option value="12">Dec</option>
+                                </select>
+                                <select name="birthday_day" class="birthdaySelector" id="birthday_day">
+                                    <option value="1">1</option>
+                                    <option value="2">2</option>
+                                    <option value="3">3</option>
+                                    <option value="4">4</option>
+                                    <option value="5">5</option>
+                                    <option value="6">6</option>
+                                    <option value="7">7</option>
+                                    <option value="8">8</option>
+                                    <option value="9">9</option>
+                                    <option value="10">10</option>
+                                    <option value="11">11</option>
+                                    <option value="12">12</option>
+                                    <option value="13">13</option>
+                                    <option value="14">14</option>
+                                    <option value="15">15</option>
+                                    <option value="16">16</option>
+                                    <option value="17">17</option>
+                                    <option value="18">18</option>
+                                    <option value="19">19</option>
+                                    <option value="20">20</option>
+                                    <option value="21">21</option>
+                                    <option value="22">22</option>
+                                    <option value="23">23</option>
+                                    <option value="24">24</option>
+                                    <option value="25">25</option>
+                                    <option value="26">26</option>
+                                    <option value="27" selected="1">27</option>
+                                    <option value="28">28</option>
+                                    <option value="29">29</option>
+                                    <option value="30">30</option>
+                                    <option value="31">31</option>
+                                </select>
+                                <select name="birthday_year" class="birthdaySelector" id="birthday_year">
+                                    <option value="2002">2002</option>
+                                    <option value="2003">2003</option>
+                                    <option value="2004">2004</option>
+                                    <option value="2005">2005</option>
+                                </select>
+                            </div>
+                        </div>
+                        <h2 class="genderText">Género</h2>
+                        <div class="genderContainer">
+                            <div class="genderStyle">
+                                <label for="Female">Female</label>
+                                <input type="radio" id="Female" name="gender" value="Female">
+                            </div>
+                            <div class="genderStyle">
+                                <label for="Male">Male</label>
+                                <input type="radio" id="Male" name="gender" value="Male">
+                            </div>
+                            <div class="genderStyle">
+                                <label for="Custom">Custom</label>
+                                <input type="radio" id="Custom" name="gender" value="Custom">
+                            </div>
+                        </div>
                     </div>
                 </div>
-            </div>
     </header>
     <section>
         <div class="containerCards">
-            <div class="primeraTarjeta">
+            <div class="primeraTarjeta" onclick="location.href='PaginaHombres.html'">
                 <div class="nombreCard">
                     <h1 class="textCard">HOMBRE</h1>
                 </div>
                 <div class="card">
                 </div>
             </div>
-            <div class="srgundaTarjeta">
+            <div class="srgundaTarjeta" onclick="location.href='PaginaMujeres.html'">
                 <div class="nombreCard">
                     <h1 class="textCard">MUJER</h1>
                 </div>
                 <div class="card2">
                 </div>
             </div>
-            <div class="terceraTarjeta">
+            <div class="terceraTarjeta" onclick="location.href='PaginaNinos.html'">
                 <div class="nombreCard">
                     <h1 class="textCard">NIÑOS</h1>
                 </div>
