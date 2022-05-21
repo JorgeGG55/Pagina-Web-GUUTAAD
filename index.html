@@ -44,17 +44,39 @@
     }
 
     function openSecondSidebar() {
-        console.log('sidebar');
-        document.querySelector('.SecondSidebar').classList.add('open');
+        console.log('secondSidebar');
+        document.querySelector('.secondSidebar').classList.add('open');
     }
 
     function closeSecondSidebar() {
-        console.log('sidebar');
-        document.querySelector('.SecondSidebar').classList.remove('open');
+        console.log('secondSidebar');
+        document.querySelector('.secondSidebar').classList.remove('open');
     }
 
-    function PaginaHombres() {
-        window.open("index2.html");
+    function loginResult() {
+        var firstName = document.getElementById('name').value;
+        var lastName = document.getElementById('lastName').value;
+        var mobileNumber = document.getElementById('mobileNumber').value;
+        var password = document.getElementById('password').value;
+        var birthdayMonth = document.getElementById('birthday_month').value;
+        var birthdayDay = document.getElementById('birthday_day').value;
+        var birthdayYear = document.getElementById('birthday_year').value;
+        var female = document.getElementById('Female').value;
+        var male = document.getElementById('Male').value;
+        var custom = document.getElementById('Custom').value;
+        if (firstName == "" || lastName == "" || mobileNumber == "" || password == "" || birthdayMonth == null || birthdayDay == null || birthdayYear == null || female == null || male == null || custom == null) {
+            alert("Rellena todos los campos");
+        } else {
+            const data = {
+                Nombre: firstName,
+                Apellido: lastName,
+                Email: mobileNumber,
+                Contraseña: password,
+                Nacimineto: birthdayDay + "/" + birthdayMonth + "/" + birthdayYear,
+                Genero: male
+            }
+            alert(JSON.stringify(data));
+        }
     }
 </script>
 
@@ -80,9 +102,24 @@
                     alt="">
             </form>
             <span class="barra">|</span>
-            <img class="bolsaCompra" onclick="openSecondSidebar()" 
+            <img class="bolsaCompra" onclick="openSecondSidebar()"
                 src="https://iconmonstr.com/wp-content/g/gd/makefg.php?i=../releases/preview/2013/png/iconmonstr-shopping-bag-3.png&r=255&g=255&b=255"
                 alt="">
+            <div class="secondSidebar">
+                <div class="shopContent">
+                    <div class="shopText">
+                        <img class="shopCart"
+                            src="https://iconmonstr.com/wp-content/g/gd/makefg.php?i=../releases/preview/2013/png/iconmonstr-basket-3.png&r=0&g=0&b=0"
+                            alt="">
+                        <h3>Cesta: 0 productos</h3>
+                    </div>
+                    <img class="xImage" src="https://img.icons8.com/material-rounded/24/000000/multiply--v1.png"
+                        onclick="closeSecondSidebar()">
+                </div>
+                <div class="cestContent">
+                    <p class="cestText">Tu cesta esta actualmente vacía</p>
+                </div>
+            </div>
             <span class="barra">|</span>
             <img class="helpImage"
                 src="https://iconmonstr.com/wp-content/g/gd/makefg.php?i=../releases/preview/2012/png/iconmonstr-help-2.png&r=255&g=255&b=255"
@@ -102,7 +139,7 @@
                         </div>
                         <div class="firstsInputs">
                             <input id="name" type="text" class="inputStyle inputWidthName" placeholder="Nombre">
-                            <input id="name" type="text" class="inputStyle inputWidthName" placeholder="Apellido">
+                            <input id="lastName" type="text" class="inputStyle inputWidthName" placeholder="Apellido">
                         </div>
                         <div class="secondsInputs">
                             <input id="mobileNumber" type="text" class="inputStyle inputWidthMobile"
@@ -113,20 +150,6 @@
                         <div class="selectTitles">
                             <h2>Fecha de nacimiento</h2>
                             <div class="birthdayContainer">
-                                <select name="birthday_month" class="birthdaySelector" id="birthday_month">
-                                    <option value="1">Jan</option>
-                                    <option value="2">Feb</option>
-                                    <option value="3">Mar</option>
-                                    <option value="4">Apr</option>
-                                    <option value="5">May</option>
-                                    <option value="6">Jun</option>
-                                    <option value="7">Jul</option>
-                                    <option value="8">Aug</option>
-                                    <option value="9">Sep</option>
-                                    <option value="10">Oct</option>
-                                    <option value="11">Nov</option>
-                                    <option value="12">Dec</option>
-                                </select>
                                 <select name="birthday_day" class="birthdaySelector" id="birthday_day">
                                     <option value="1">1</option>
                                     <option value="2">2</option>
@@ -160,6 +183,20 @@
                                     <option value="30">30</option>
                                     <option value="31">31</option>
                                 </select>
+                                <select name="birthday_month" class="birthdaySelector" id="birthday_month">
+                                    <option value="1">Enero</option>
+                                    <option value="2">Febrero</option>
+                                    <option value="3">Marzo</option>
+                                    <option value="4">Abirl</option>
+                                    <option value="5">Mayo</option>
+                                    <option value="6">Junio</option>
+                                    <option value="7">Julio</option>
+                                    <option value="8">Agosto</option>
+                                    <option value="9">Septiembre</option>
+                                    <option value="10">Octubre</option>
+                                    <option value="11">Noviembre</option>
+                                    <option value="12">Diciembre</option>
+                                </select>
                                 <select name="birthday_year" class="birthdaySelector" id="birthday_year">
                                     <option value="2002">2002</option>
                                     <option value="2003">2003</option>
@@ -171,17 +208,20 @@
                         <h2 class="genderText">Género</h2>
                         <div class="genderContainer">
                             <div class="genderStyle">
-                                <label for="Female">Female</label>
-                                <input type="radio" id="Female" name="gender" value="Female">
+                                <label for="Male">Hombre</label>
+                                <input type="radio" id="Male" name="gender" value="Male">
                             </div>
                             <div class="genderStyle">
-                                <label for="Male">Male</label>
-                                <input type="radio" id="Male" name="gender" value="Male">
+                                <label for="Female">Mujer</label>
+                                <input type="radio" id="Female" name="gender" value="Female">
                             </div>
                             <div class="genderStyle">
                                 <label for="Custom">Custom</label>
                                 <input type="radio" id="Custom" name="gender" value="Custom">
                             </div>
+                        </div>
+                        <div class="buttonContainer">
+                            <button type="submit" class="buttonStyle" onclick="loginResult()">Registrarse</button>
                         </div>
                     </div>
                 </div>

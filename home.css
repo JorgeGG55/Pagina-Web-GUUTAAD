@@ -261,7 +261,7 @@ h1 {
     opacity: 75%;
     padding: 20px;
     z-index: 10;
-    top: 50px;
+    top: 52px;
     width: 20%;
     height: 100%;
     transform: translateX(-100%);
@@ -269,31 +269,31 @@ h1 {
     box-sizing: border-box;
     position: fixed;
     transition: transform 0.7s;
-}
-
-.SecondSidebar {
-    display: flex;
-    background-color: white;
-    opacity: 75%;
-    padding: 20px;
-    z-index: 10;
-    top: 50px;
-    width: 20%;
-    height: 100%;
-    transform: translateX(-100%);
-    bottom: 0;
-    box-sizing: border-box;
-    position: fixed;
-    transition: transform 0.7s;
-}
-
-.SecondSidebar.open {
-    left: 0px;
-    transform: translateX(0);
 }
 
 .sidebar.open {
     left: 0px;
+    transform: translateX(0);
+}
+
+.secondSidebar {
+    display: none;
+    background-color: white;
+    padding: 10px;
+    z-index: 15;
+    top: 52px;
+    width: 20%;
+    height: 20%;
+    transform: translateX(-40%);
+    box-sizing: border-box;
+    position: fixed;
+    transition: transform 0.7s;
+}
+
+.secondSidebar.open {
+    display: flex;
+    flex-direction: column;
+    right: 0px;
     transform: translateX(0);
 }
 
@@ -326,6 +326,7 @@ h1 {
     height: auto;
     margin-bottom: 350px;
     margin-right: 35px;
+    margin-top: 150px;
     background-color: white;
     text-align: center;
     overflow: hidden;
@@ -491,3 +492,65 @@ h2 {
     cursor: pointer;
 }
 
+.shopCart {
+    width: 25px;
+    height: 25px;
+}
+
+.shopContent {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+h3 {
+    font-size: 15px;
+    margin-left: 10px;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.shopText {
+    display: flex;
+    align-items: center;
+}
+
+.cestContent {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cestText {
+    margin-top: 50px;
+    opacity: 30%;
+}
+
+.buttonContainer {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+.buttonStyle {
+    background: none;
+    background-color: lightskyblue;
+    border: none;
+    border-radius: 6px;
+    box-shadow: none;
+    color: #fff;
+    font-size: 18px;
+    font-weight: bold;
+    height: 36px;
+    padding: 0 32px;
+    cursor: pointer;
+}
+
+.buttonStyle:hover {
+    border: 2px solid lightskyblue;
+    border-collapse: collapse;
+    background-color: white;
+    color: lightskyblue;
+}
