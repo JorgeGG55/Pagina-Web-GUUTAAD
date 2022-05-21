@@ -43,6 +43,16 @@
         document.querySelector('.sidebar').classList.remove('open');
     }
 
+    function openSecondSidebar() {
+        console.log('sidebar');
+        document.querySelector('.SecondSidebar').classList.add('open');
+    }
+
+    function closeSecondSidebar() {
+        console.log('sidebar');
+        document.querySelector('.SecondSidebar').classList.remove('open');
+    }
+
     function PaginaHombres() {
         window.open("index2.html");
     }
@@ -70,7 +80,7 @@
                     alt="">
             </form>
             <span class="barra">|</span>
-            <img class="bolsaCompra"
+            <img class="bolsaCompra" onclick="openSecondSidebar()" 
                 src="https://iconmonstr.com/wp-content/g/gd/makefg.php?i=../releases/preview/2013/png/iconmonstr-shopping-bag-3.png&r=255&g=255&b=255"
                 alt="">
             <span class="barra">|</span>
