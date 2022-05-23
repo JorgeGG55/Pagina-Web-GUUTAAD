@@ -11,7 +11,7 @@
     justify-content: space-between;
     align-items: center;
     box-sizing: border-box;
-    border-bottom: 2px solid black;
+    border-bottom: 2px solid lightgray;
     z-index: 999;
 }
 
@@ -24,7 +24,7 @@ body {
 }
 
 h1 {
-    margin-left: 340px;
+    margin-right: 150px;
     color: black;
     font-family: 'Times New Roman', Times, serif;
 }
@@ -60,6 +60,7 @@ h1 {
     cursor: pointer;
     padding-right: 6px;
     padding-top: 5px;
+    display: none;
 }
 
 .menuImage:hover {
@@ -69,15 +70,14 @@ h1 {
 }
 
 .registerImage {
-    height: 20px;
-    width: 20px;
+    height: 30px;
+    width: 30px;
+    margin-left: 8px;
+    margin-right: 8px;
     cursor: pointer;
 }
 
 .registerImage:hover {
-    width: 22px;
-    height: 22px;
-    transition: all 0.1s ease;
 }
 
 .menuButton {
@@ -112,34 +112,32 @@ h1 {
 }
 
 .barra {
-    color: white;
+    color: black;
     margin-left: 8px;
     margin-right: 8px;
-    font-size: 25px;
+    font-size: 40px;
 }
 
 .bolsaCompra {
-    width: 20px;
-    height: 20px;
+    width: 30px;
+    height: 30px;
+    margin-left: 8px;
+    margin-right: 8px;
     cursor: pointer;
 }
 
 .bolsaCompra:hover {
-    width: 22px;
-    height: 22px;
-    transition: all 0.1s ease;
 }
 
 .helpImage {
-    width: 20px;
-    height: 20px;
+    width: 30px;
+    height: 30px;
     cursor: pointer;
+    margin-left: 8px;
+    margin-right: 8px;
 }
 
 .helpImage:hover {
-    width: 22px;
-    height: 22px;
-    transition: all 0.1s ease;
 }
 
 .containerCards {
@@ -205,21 +203,23 @@ h1 {
 }
 
 .searchBar {
+    margin-left: 30px;
     display: flex;
-    background-color: white;
+    background-color: transparent;
     width: 240px;
     height: 25px;
     border-radius: 10px;
     align-items: center;
+    padding: 5px;
 }
 
 .searchInput {
     all: unset;
+    margin-left: 10px;
     font: 16px system-ui;
     color: black;
     height: 100%;
     width: 100%;
-    padding: 6px 10px;
 }
 
 .accesos {
