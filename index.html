@@ -78,10 +78,21 @@
             alert(JSON.stringify(data));
         }
     }
+
+    var Header = document.getElementsById('Header')
+
+    window.addEventListener('scroll', ()=>{
+        var scroll = window.scrollY
+        if(scroll>10){
+            Header.style.backgroundColor = '#FFFFFF'
+        }else{
+            Header.style.backgroundColor = 'transparent'
+        }
+    })
 </script>
 
 <body>
-    <header class="headerTop">
+    <header class="headerTop" id="Header">
         <div>
             <img class="menuImage" onclick="openSidebar()"
                 src="https://iconmonstr.com/wp-content/g/gd/makefg.php?i=../releases/preview/7.1.0/png/iconmonstr-line-four-horizontal-lined.png&r=255&g=255&b=255"
@@ -92,7 +103,7 @@
                 onclick="closeSidebar()">
         </div>
         <div class="title">
-            <h1>GU<span class="colorTitle">UTAD</span></h1>
+            <h1>LOUIS VUITTAD</h1>
         </div>
         <div class="FAQS">
             <form class="searchBar">
@@ -177,7 +188,7 @@
                                     <option value="24">24</option>
                                     <option value="25">25</option>
                                     <option value="26">26</option>
-                                    <option value="27" selected="1">27</option>
+                                    <option value="27">27</option>
                                     <option value="28">28</option>
                                     <option value="29">29</option>
                                     <option value="30">30</option>
