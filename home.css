@@ -2,41 +2,68 @@
 
 .headerTop {
     background-color: white;
-    height: 10%;
+    height: auto;
     width: 100%;
     position: fixed;
     top: 0;
     left: 0;
     display: flex;
+    flex-direction: column;
     justify-content: space-between;
     align-items: center;
     box-sizing: border-box;
-    border-bottom: 2px solid lightgray;
+    transition: 0.7s;
     z-index: 999;
 }
 
+.firstHeader {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-between;
+    width: 400px;
+}
+
+.navButtons {
+    color: black;
+    font-family: 'Fira Sans', sans-serif;
+    font-size: 13px;
+    background: none;
+    border: none;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+.navButtons:hover {
+    opacity: 70%;
+    cursor: pointer;
+}
+
 body {
-    background-color: white;
+    background-image: url(https://fondosmil.com/fondo/33796.jpg);
     background-position: center;
     background-size: cover;
+    background-repeat: no-repeat;   
     margin: 0;
     font-family: 'Fira Sans', sans-serif;
 }
 
 h1 {
-    margin-right: 150px;
     color: black;
     font-family: 'Times New Roman', Times, serif;
-}
-
-.colorTitle {
-    color: lightblue;
 }
 
 .title {
     display: flex;
     align-items: center;
-    cursor: pointer;
 }
 
 .homeButton {
@@ -63,21 +90,12 @@ h1 {
     display: none;
 }
 
-.menuImage:hover {
-    width: 42px;
-    height: 38px;
-    transition: all 0.1s ease;
-}
-
 .registerImage {
-    height: 30px;
-    width: 30px;
+    width: 24px;
+    height: 24px;
     margin-left: 8px;
     margin-right: 8px;
     cursor: pointer;
-}
-
-.registerImage:hover {
 }
 
 .menuButton {
@@ -107,8 +125,18 @@ h1 {
 
 .FAQS {
     display: flex;
+    justify-content: space-between;
+    width: 230px;
+    margin-top: 30px;
+    margin-right: 20px;
     align-items: center;
     padding: 10px;
+}
+
+.heartImage {
+    width: 24px;
+    height: 24px;
+    cursor: pointer;
 }
 
 .barra {
@@ -126,78 +154,22 @@ h1 {
     cursor: pointer;
 }
 
-.bolsaCompra:hover {
-}
 
 .helpImage {
-    width: 30px;
-    height: 30px;
+    width: 24px;
+    height: 24px;
     cursor: pointer;
     margin-left: 8px;
     margin-right: 8px;
 }
 
-.helpImage:hover {
-}
-
-.containerCards {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-}
-
-.card {
-    padding: 10px;
-    margin-right: 50px;
-    background-image: url(https://www.hola.com/fashion/imagenes/belleza/2019091768050/mariano-di-vaio-fragancia-masculina-dolce-gabbana/0-289-926/dolce-gabbana-k-z.jpg);
-    background-size: cover;
-    background-position: center;
-    width: 400px;
-    height: 600px;
-    overflow: hidden;
-    cursor: pointer;
-    transition: transform .2s;
-    border: 2px solid black;
-}
-
-.card:hover {
-    background-image: url(https://cdn.pixabay.com/photo/2021/03/21/23/06/portrait-6113319_960_720.jpg);
-}
-
-.card2 {
-    padding: 10px;
-    margin-right: 50px;
-    background-image: url(https://cdn.pixabay.com/photo/2021/03/21/23/06/portrait-6113319_960_720.jpg);
-    background-size: cover;
-    background-position: center;
-    width: 400px;
-    height: 600px;
-    cursor: pointer;
-    transition: transform .2s;
-    overflow: hidden;
-    border: 2px solid black;
-}
-
-.card3 {
-    padding: 10px;
-    background-image: url(https://i.pinimg.com/550x/c6/db/91/c6db91d97da7f672b3a3559204895c04.jpg);
-    background-size: cover;
-    background-position: center;
-    width: 400px;
-    height: 600px;
-    cursor: pointer;
-    transition: transform .2s;
-    overflow: hidden;
-    border: 2px solid black;
-}
-
 .tall {
-    height: 600px;
+    height: 730px;
 }
 
 .searchImage {
-    width: 20px;
-    height: 20px;
+    width: 24px;
+    height: 24px;
     padding-right: 5px;
     cursor: pointer;
 }
@@ -207,6 +179,7 @@ h1 {
     display: flex;
     background-color: transparent;
     width: 240px;
+    margin-top: 25px;
     height: 25px;
     border-radius: 10px;
     align-items: center;
@@ -272,8 +245,8 @@ h1 {
     opacity: 75%;
     padding: 20px;
     z-index: 10;
-    top: 52px;
-    width: 20%;
+    top: 80px;
+    width: 40%;
     height: 100%;
     transform: translateX(-100%);
     bottom: 0;
@@ -292,20 +265,41 @@ h1 {
     background-color: white;
     padding: 10px;
     z-index: 15;
-    top: 52px;
+    top: 120px;
+    left: 0;
     width: 20%;
     height: 20%;
-    transform: translateX(-40%);
+    margin-left: 1210px;
     box-sizing: border-box;
+    border: 2px solid black;
     position: fixed;
-    transition: transform 0.7s;
+    transition: 0.7s;
 }
 
 .secondSidebar.open {
     display: flex;
     flex-direction: column;
-    right: 0px;
-    transform: translateX(0);
+}
+
+.thirdSidebar {
+    display: none;
+    background-color: white;
+    padding: 10px;
+    z-index: 15;
+    top: 120px;
+    left: 0;
+    width: 20%;
+    height: 20%;
+    margin-left: 990px;
+    box-sizing: border-box;
+    border: 2px solid black;
+    position: fixed;
+    transition: 0.7s;
+}
+
+.thirdSidebar.open {
+    display: flex;
+    flex-direction: column;
 }
 
 .xImage {
@@ -513,7 +507,19 @@ h2 {
     height: 25px;
 }
 
+.wishHeart {
+    width: 25px;
+    height: 25px;
+}
+
 .shopContent {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.whishContent {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -528,6 +534,11 @@ h3 {
 }
 
 .shopText {
+    display: flex;
+    align-items: center;
+}
+
+.whishText {
     display: flex;
     align-items: center;
 }
@@ -569,4 +580,54 @@ h3 {
     border-collapse: collapse;
     background-color: white;
     color: lightskyblue;
+}
+
+.novedades {
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    width: 100%;
+    height: 100%;
+    padding: 20px;
+}
+
+.novedadesText {
+    color: black;
+    font-family: 'Fira Sans', sans-serif;
+}
+
+.cards {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+@media (max-width: 820px) {
+    .firstHeader {
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+    }
+
+    .FAQS {
+        display: none;
+    }
+
+    .searchBar {
+        display: none;
+    }
+
+    .menuImage {
+        display: flex;
+        margin-top: -7px;
+    }
+
+    .navButtons {
+        display: none;
+    }
+
+    h1 {
+        margin-left: 20px;
+    }
 }
