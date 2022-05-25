@@ -619,13 +619,16 @@ section {
     width: 75%;
 }
 
-.imagenGafas {
+.glassesImage {
     margin-bottom: 100px;
 }
 
-.imagenCamiseta {
-    margin-top: 50px;
-    margin-bottom: 50px;
+.card {
+    height: 420px;
+}
+
+.cardText {
+    padding-top: 0px;
 }
 
 .imageContainer {
