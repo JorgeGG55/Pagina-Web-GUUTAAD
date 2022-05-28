@@ -1,0 +1,679 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:wght@100;200;300;400;500;600;700;800;900&family=Playfair+Display&display=swap');
+
+.headerTop {
+    background-color: white;
+    height: auto;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    box-sizing: border-box;
+    transition: 0.7s;
+    z-index: 999;
+    border-bottom: 2px solid black;
+}
+
+.firstHeader {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    height: 60px;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-between;
+    width: 400px;
+}
+
+.navButtons {
+    color: black;
+    font-family: 'Fira Sans', sans-serif;
+    font-size: 13px;
+    background: none;
+    border: none;
+    font-weight: bold;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.navButtons:hover {
+    opacity: 70%;
+    cursor: pointer;
+}
+
+body {
+    background-image: url(https://firebasestorage.googleapis.com/v0/b/poer-acb1a.appspot.com/o/86f3e518-98fd-4fc9-9560-a3d7eb976ca2.jpg?alt=media&token=06483107-9e4e-4e72-86c0-6a75bb2adbf5);
+    background-size: 500px;
+    margin: 0;
+    font-family: 'Fira Sans', sans-serif;
+}
+
+h1 {
+    color: black;
+    font-family: 'Times New Roman', Times, serif;
+    margin: 0;
+}
+
+.title {
+    display: flex;
+    align-items: center;
+}
+
+.homeButton {
+    background-color: none;
+    background: none;
+    border: none;
+    cursor: pointer;
+    color: white;
+    font-weight: bold;
+}
+
+.homeButton:hover {
+    font-size: 15px;
+    transition: all 0.5s ease;
+}
+
+.menuImage {
+    padding-left: 10px;
+    height: 35px;
+    width: 40px;
+    cursor: pointer;
+    padding-right: 6px;
+    padding-top: 5px;
+    display: none;
+}
+
+.registerImage {
+    width: 24px;
+    height: 24px;
+    margin-left: 8px;
+    margin-right: 8px;
+    cursor: pointer;
+}
+
+.menuButton {
+    background-color: none;
+    background: none;
+    border: none;
+    cursor: pointer;
+    color: white;
+    font-weight: bold;
+    padding-left: 0;
+}
+
+.Menu {
+    display: flex;
+    align-items: center;
+}
+
+.registerButton {
+    background-color: none;
+    background: none;
+    border: none;
+    cursor: pointer;
+    color: white;
+    font-weight: bold;
+    padding: 0;
+}
+
+.FAQS {
+    display: flex;
+    justify-content: space-between;
+    width: 230px;
+    margin-top: 30px;
+    margin-right: 20px;
+    align-items: center;
+    padding: 10px;
+}
+
+.heartImage {
+    width: 24px;
+    height: 24px;
+    cursor: pointer;
+}
+
+.barra {
+    color: black;
+    margin-left: 8px;
+    margin-right: 8px;
+    font-size: 40px;
+}
+
+.bolsaCompra {
+    width: 30px;
+    height: 30px;
+    margin-left: 8px;
+    margin-right: 8px;
+    cursor: pointer;
+}
+
+
+.helpImage {
+    width: 24px;
+    height: 24px;
+    cursor: pointer;
+    margin-left: 8px;
+    margin-right: 8px;
+}
+
+.tall {
+    height: 100px;
+}
+
+.searchImage {
+    width: 30px;
+    height: 24px;
+    padding-right: 5px;
+    cursor: pointer;
+}
+
+.searchBar {
+    margin-left: 30px;
+    display: flex;
+    background-color: transparent;
+    width: 240px;
+    margin-top: 25px;
+    height: 25px;
+    border-radius: 10px;
+    align-items: center;
+    padding: 5px;
+}
+
+.searchInput {
+    all: unset;
+    margin-left: 10px;
+    font: 16px system-ui;
+    color: black;
+    height: 100%;
+    width: 100%;
+}
+
+.accesos {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: none;
+    height: 30px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+.botones {
+    margin-right: 60px;
+    border: none;
+    background: none;
+    color: white;
+    cursor: pointer;
+}
+
+.botones:hover {
+    border-radius: 5px;
+    border: 1px solid white;
+    background-color: white;
+    color: black;
+}
+
+.arrow-up {
+    width: 60px;
+    height: 60px;
+    position: fixed;
+    right: 20px;
+    bottom: 20px;
+    cursor: pointer;
+
+    background: none;
+    border: none;
+    padding: 0px;
+    opacity: 0;
+    transition: .4s opacity;
+}
+
+.arrow-up.visible {
+    opacity: 1;
+}
+
+.sidebar {
+    display: flex;
+    background-color: white;
+    padding: 20px;
+    z-index: 10;
+    top: 40px;
+    width: 40%;
+    height: 100%;
+    transform: translateX(-100%);
+    bottom: 0;
+    box-sizing: border-box;
+    position: fixed;
+    transition: transform 0.7s;
+}
+
+.sidebar.open {
+    left: 0px;
+    transform: translateX(0);
+}
+
+.secondSidebar {
+    display: none;
+    background-color: white;
+    padding: 10px;
+    z-index: 15;
+    top: 92px;
+    left: 0;
+    width: 20%;
+    height: 20%;
+    margin-left: 1220px;
+    box-sizing: border-box;
+    border: 2px solid black;
+    position: fixed;
+    transition: 0.7s;
+}
+
+.secondSidebar.open {
+    display: flex;
+    flex-direction: column;
+}
+
+.thirdSidebar {
+    display: none;
+    background-color: white;
+    padding: 10px;
+    z-index: 15;
+    top: 92px;
+    left: 0;
+    width: 20%;
+    height: 20%;
+    margin-left: 1027px;
+    box-sizing: border-box;
+    border: 2px solid black;
+    position: fixed;
+    transition: 0.7s;
+}
+
+.thirdSidebar.open {
+    display: flex;
+    flex-direction: column;
+}
+
+.xImage {
+    cursor: pointer;
+    height: 20px;
+    width: 20px;
+    margin-left: 10px;
+}
+
+.modal {
+    position: fixed;
+    z-index: 7;
+    background-color: rgba(0, 0, 0, 0.5);
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    visibility: hidden;
+    opacity: 0;
+    transition: visibility .2s, opacity .2s;
+}
+
+.content {
+    width: 450px;
+    height: auto;
+    margin-bottom: 350px;
+    margin-right: 35px;
+    margin-top: 150px;
+    background-color: white;
+    text-align: center;
+    overflow: hidden;
+}
+
+.firstsInputs {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-top: 20px;
+}
+
+.secondsInputs {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-top: 10px;
+}
+
+.inputStyle {
+    border-radius: 5px;
+    background-color: rgba(245, 247, 246, 255);
+    padding: 11px;
+    font-size: 15px;
+    margin-bottom: 10px;
+    border: 1px solid;
+    border-color: black;
+    margin-bottom: 10;
+}
+
+.inputWidthName {
+    margin-bottom: 0;
+}
+
+.text {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    font-size: 30px;
+    border-bottom: 1px solid gray;
+    font-weight: bold;
+}
+
+.show {
+    visibility: visible;
+    opacity: 1;
+}
+
+.selectTitles {
+    display: flex;
+    flex-direction: column;
+    color: black;
+    font-weight: normal;
+    line-height: 20px;
+    margin-bottom: 0;
+    margin-top: 2px;
+}
+
+h2 {
+    margin: 0;
+    margin-right: 295px;
+    font-size: 15px;
+}
+
+.genderText {
+    margin: 0;
+    margin-right: 375px;
+    font-size: 15px;
+}
+
+.birthdayContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+.birthdaySelector {
+    border-radius: 4px;
+    border-color: rgba(216, 219, 223, 255);
+    color: #1c1e21;
+    font-size: 15px;
+    font-weight: normal;
+    height: 36px;
+    padding: 0 8px;
+    width: 125px;
+}
+
+.genderContainer {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    padding: 10px;
+}   
+
+.genderStyle {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border: 1px solid #ccd0d5;
+    font-weight: normal;
+    color: black;
+    height: 36px;
+    padding-left: 10px;
+    margin-right: 10px;
+    width: auto;
+    border-radius: 4px;
+    width: 125px;
+    margin-left: 0px;
+}
+
+.xImage {
+    width: 20px;
+    height: 20px;
+}
+
+.nombreCard {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    width: 424px;
+}
+
+.textCard {
+    margin-left: 0;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+
+.containerCards {
+    margin-top: 50px;
+}
+
+.primeraTarjeta {
+    margin-top: 80px;
+    transition: transform .2s;
+}
+
+.srgundaTarjeta {
+    margin-top: 80px;
+    transition: transform .2s;
+}
+
+.terceraTarjeta {
+    margin-top: 80px;
+    transition: transform .2s;
+}
+
+.primeraTarjeta:hover{ 
+    transform: scale(1.02);
+    cursor: pointer;
+}
+
+.srgundaTarjeta:hover {
+    transform: scale(1.02);
+    cursor: pointer;
+}
+
+.terceraTarjeta:hover {
+    transform: scale(1.02);
+    cursor: pointer;
+}
+
+.shopCart {
+    width: 25px;
+    height: 25px;
+}
+
+.wishHeart {
+    width: 25px;
+    height: 25px;
+}
+
+.shopContent {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.whishContent {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+h3 {
+    font-size: 15px;
+    margin-left: 10px;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.shopText {
+    display: flex;
+    align-items: center;
+}
+
+.whishText {
+    display: flex;
+    align-items: center;
+}
+
+.cestContent {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cestText {
+    margin-top: 50px;
+    opacity: 30%;
+}
+
+.buttonContainer {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+.buttonStyle {
+    background: none;
+    background-color: lightskyblue;
+    border: none;
+    border-radius: 6px;
+    box-shadow: none;
+    color: #fff;
+    font-size: 18px;
+    font-weight: bold;
+    height: 36px;
+    padding: 0 32px;
+    cursor: pointer;
+}
+
+.buttonStyle:hover {
+    border: 2px solid lightskyblue;
+    border-collapse: collapse;
+    background-color: white;
+    color: lightskyblue;
+}
+
+.novedades {
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    width: 100%;
+    height: 100%;
+    padding: 20px;
+    margin-top: 65px;
+}
+
+.novedadesText {
+    color: black;
+    font-family: 'Fira Sans', sans-serif;
+    margin-bottom: 40px;
+}
+
+.cards {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.carousel {
+    display: flex;
+    justify-content: center;
+    margin-top: 150px;
+    width: 75%;
+}
+
+.glassesImage {
+    margin-bottom: 100px;
+}
+
+.card {
+    height: 420px;
+}
+
+.cardText {
+    padding-top: 0px;
+}
+
+.imageContainer {
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+    width: 1000px;
+}
+
+.img-fluid {
+    height: 50%;
+    width: 80%;
+}
+
+@media (max-width: 820px) {
+    .firstHeader {
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        border-top: 1px solid black;
+    }
+
+    .FAQS {
+        display: none;
+    }
+
+    .searchBar {
+        display: none;
+    }
+
+    .menuImage {
+        display: flex;
+        margin-top: -7px;
+    }
+
+    .navButtons {
+        display: none;
+    }
+
+    h1 {
+        margin-left: 20px;
+        margin-bottom: 0;
+    }
+
+    .carousel {
+        margin-top: 80px;
+    }
+}
