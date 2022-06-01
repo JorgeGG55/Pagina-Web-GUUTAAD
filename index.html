@@ -76,8 +76,8 @@
         var female = document.getElementById('Female').value;
         var male = document.getElementById('Male').value;
         var custom = document.getElementById('Custom').value;
-        if (firstName == "" || lastName == "" || mobileNumber == "" || password == "" || birthdayMonth == null || birthdayDay ==
-            null || birthdayYear == null || female == null || male == null || custom == null) {
+        if (firstName == "" || lastName == "" || mobileNumber == "" || !password || birthdayMonth == null || birthdayDay ==
+            null || birthdayYear == null || !female || male == null || custom == null) {
             alert("Rellena todos los campos");
         } else {
             const data = {
