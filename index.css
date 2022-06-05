@@ -142,6 +142,7 @@ h1 {
     color: white;
     font-weight: bold;
     padding: 0;
+    font-family: 'Fira Sans', sans-serif;
 }
 
 .FAQS {
@@ -321,15 +322,13 @@ h1 {
     background-color: white;
     padding: 10px;
     z-index: 15;
-    top: 92px;
+    top: 100px;
     left: 0;
     width: 20%;
     height: 20%;
-    margin-left: 1220px;
+    margin-left: 1500px;
     box-sizing: border-box;
-    border: 2px solid black;
     position: fixed;
-    transition: 0.7s;
 }
 
 .secondSidebar.open {
@@ -339,18 +338,16 @@ h1 {
 
 .thirdSidebar {
     display: none;
+    flex-direction: column;
     background-color: white;
     padding: 10px;
-    z-index: 15;
-    top: 92px;
+    z-index: 99;
+    top: 100px;
     left: 0;
-    width: 20%;
-    height: 20%;
-    margin-left: 1027px;
-    box-sizing: border-box;
-    border: 2px solid black;
-    position: fixed;
-    transition: 0.7s;
+    width: 350px;
+    height: 200px;
+    position: absolute;
+    margin-left: 1400px;
 }
 
 .thirdSidebar.open {
@@ -386,8 +383,9 @@ h1 {
     width: 450px;
     height: auto;
     margin-bottom: 350px;
-    margin-right: 35px;
-    margin-top: 150px;
+    margin-left: 20px;
+    margin-top: 200px;
+    border-radius: 5px;
     background-color: white;
     text-align: center;
     overflow: hidden;
@@ -424,6 +422,7 @@ h1 {
 
 .inputWidthName {
     margin-bottom: 0;
+    width: 210px;
 }
 
 .text {
@@ -619,7 +618,7 @@ h3 {
 
 .buttonStyle {
     background: none;
-    background-color: lightskyblue;
+    background-color: chocolate;
     border: none;
     border-radius: 6px;
     box-shadow: none;
@@ -632,10 +631,8 @@ h3 {
 }
 
 .buttonStyle:hover {
-    border: 2px solid lightskyblue;
-    border-collapse: collapse;
-    background-color: white;
-    color: lightskyblue;
+    opacity: 70%;
+    cursor: pointer;
 }
 
 .novedades {
