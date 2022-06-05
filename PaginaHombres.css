@@ -14,7 +14,7 @@
     box-sizing: border-box;
     transition: 0.7s;
     z-index: 999;
-    border-bottom: 2px solid black;
+    
 }
 
 .firstHeader {
@@ -55,8 +55,7 @@ nav {
 }
 
 body {
-    background-image: url(https://firebasestorage.googleapis.com/v0/b/poer-acb1a.appspot.com/o/86f3e518-98fd-4fc9-9560-a3d7eb976ca2.jpg?alt=media&token=06483107-9e4e-4e72-86c0-6a75bb2adbf5);
-    background-size: 500px;
+    background-color: white;
     margin: 0;
     font-family: 'Fira Sans', sans-serif;
 }
