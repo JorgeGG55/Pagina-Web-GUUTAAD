@@ -669,9 +669,9 @@ section {
 
 .carousel {
     width: 70%;
-    z-index: 999;
+    z-index: 09;
     position: absolute;
-    margin-top: 200px;
+    margin-top: 50px;
 }
 
 .lastContainer {
