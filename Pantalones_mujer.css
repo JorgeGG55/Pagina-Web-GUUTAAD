@@ -107,6 +107,20 @@ h1 {
     cursor: pointer;
 }
 
+.buttonStyle {
+    background: none;
+    background-color: chocolate;
+    border: none;
+    border-radius: 6px;
+    box-shadow: none;
+    color: #fff;
+    font-size: 18px;
+    font-weight: bold;
+    height: 36px;
+    padding: 0 32px;
+    cursor: pointer;
+}
+
 .menuButton {
     background-color: none;
     background: none;

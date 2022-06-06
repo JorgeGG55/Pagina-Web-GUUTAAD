@@ -109,6 +109,20 @@ h1 {
     cursor: pointer;
 }
 
+.buttonStyle {
+    background: none;
+    background-color: chocolate;
+    border: none;
+    border-radius: 6px;
+    box-shadow: none;
+    color: #fff;
+    font-size: 18px;
+    font-weight: bold;
+    height: 36px;
+    padding: 0 32px;
+    cursor: pointer;
+}
+
 .menuButton {
     background-color: none;
     background: none;
@@ -517,7 +531,7 @@ h3 {
 section {
     margin-top: 150px;
     padding-right: 100px;
-    padding-left: 100px;
+    padding-left: 100px;   
 }
 
 .cardsContainer {
@@ -531,8 +545,8 @@ section {
     width: 450px;
     background-position: center;
     background-size: cover;
-    background-color: white;
-    height: 600px;
+    background-color: transparent;
+    height: 500px;
     transition: 0.5s;
 }
 
@@ -546,7 +560,7 @@ section {
     width: 300px;
     background-position: center;
     background-size: cover;
-    background-color: white;
+    background-color: transparent;
     height: 400px;
     transition: 0.5s;
     margin-left:-80px;
@@ -562,7 +576,7 @@ section {
     width: 330px;
     background-position: center;
     background-size: cover;
-    background-color: white;
+    background-color: transparent;
     height: 360px;
     transition: 0.5s;
 }
@@ -570,6 +584,133 @@ section {
 .accesoriesCard:hover {
     cursor: pointer;
     transform: scale(1.1);
+}
+
+footer {
+    background-color: black;
+    color: white;
+    padding: 50px;
+}
+
+.footContainer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.aboutUsContainer {
+    width: 30%;
+}
+
+.aboutUs {
+    font-size: 20px;
+    margin-bottom: 20px;
+    margin-right: 0;
+}
+
+.aboutUsText {
+    font-size: 15px;
+}
+
+
+.access {
+    font-size: 20px;
+    margin-bottom: 20px;
+
+}
+
+.accessText {
+    font-size: 15px;
+}
+
+li {
+    list-style: none;
+    cursor: pointer;
+}
+
+.footerImages {
+    width: 20px;
+    height: 20px;
+    margin-right: 20px;
+}
+
+.secondFootContainer {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.contact {
+    font-size: 15px;
+}
+
+.contactTitle {
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+.phone {
+    display: flex;
+    flex-direction: row;
+}
+.email {
+    display: flex;
+    flex-direction: row;
+}
+
+
+.lastText {
+    font-size: 10px;
+    margin-top: 20px;
+    margin-right: 220px;
+    font-weight: bold;
+}
+
+.inputStyleEmail {
+    border-radius: 5px;
+    background-color: rgba(245, 247, 246, 255);
+    padding: 11px;
+    font-size: 15px;
+    margin-bottom: 10px;
+    border: 1px solid;
+    border-color: black;
+    margin-bottom: 10;
+    width: 250px;
+}
+
+.emailContainer {
+    display: flex;
+    flex-direction: column;
+}
+
+.sendButton {
+    width: 250px;
+    border: none;
+    padding: 5px;
+    background-color: rgba(164,129,103,255);
+    color: black;
+    font-weight: bold;
+    border-radius: 5px;
+}
+
+.newsContainer {
+    display: flex;
+}
+
+.newsText {
+    font-size: 3vw;
+    display: flex;
+    position: absolute;
+    color: white;
+    margin-right: 200px;
+    font-family: 'Fira Sans', sans-serif;
+    font-weight: bold;
+    z-index: 999;
+    letter-spacing: 10px;
+}
+
+.emailClass {
+    margin-right: 3%;
 }
 
 @media (max-width: 820px) {
