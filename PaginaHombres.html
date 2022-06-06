@@ -15,7 +15,12 @@
         const modal = document.querySelector('.modal');
         modal.classList.remove('show');
     }
-
+    function _scrollDown() {
+        window.scroll({
+            top: 2200,
+            behavior: 'smooth'
+        });
+    }
     window.addEventListener('scroll', function (e) {
         const arrow = document.querySelector('.arrow-up');
         if (window.scrollY > 100) {
@@ -249,10 +254,9 @@
             </div>
         </div>
         <nav>
-            <button class="navButtons">NOVEDADES</button>
-            <button class="navButtons manButton">HOMBRE</button>
+            <button class="navButtons" onclick="location.href='index.html'")>NOVEDADES</button>
+            <button class="navButtons manButton" onclick="_scrollDown()">HOMBRE</button>
             <button class="navButtons">MUJER</button>
-            <button class="navButtons">DEPORTE</button>
         </nav>
     </header>
     <section>
