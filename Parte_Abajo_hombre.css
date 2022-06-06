@@ -14,7 +14,6 @@
     box-sizing: border-box;
     transition: 0.7s;
     z-index: 999;
-    border-bottom: 2px solid black;
 }
 
 .firstHeader {
@@ -70,8 +69,12 @@ h1 {
 }
 
 .title {
-    display: flex;
-    align-items: center;
+    font-family: 'Times New Roman', Times, serif;
+    margin: 0;
+    margin-right: 2%;
+    width: 350px;
+    font-size: 40px;
+    cursor: pointer;
 }
 
 .homeButton {
@@ -148,7 +151,7 @@ h1 {
 .FAQS {
     display: flex;
     justify-content: space-between;
-    width: 230px;
+    width: 150px;
     margin-top: 30px;
     margin-right: 20px;
     align-items: center;
@@ -553,13 +556,23 @@ h3 {
 }
 
 .shirtCard {
-    background-image: url(https://firebasestorage.googleapis.com/v0/b/poer-acb1a.appspot.com/o/BlancaDel-removebg-preview.png?alt=media&token=5b4e065f-019c-463c-89e6-4be1028744d1);
+    background-image: url(https://firebasestorage.googleapis.com/v0/b/poer-acb1a.appspot.com/o/2%2Cwidth%3D800%2Cheight%3D800qwewqeqwe.png?alt=media&token=e9806dbb-7b95-4297-9bd2-0387e8b7d819);
+    background-position: center;
+    background-size: 500px;
     width: 460px;
     height: 500px;
-    background-position: center;
     background-repeat: no-repeat;
     display: flex;
     align-items: flex-end;
+}
+
+.cartButton {
+    background-color: black;
+    color: white;
+    font-family: 'Fira Sans', sans-serif;
+    font-weight: bold;
+    border: 1px solid black;
+    border-radius: 5px;
 }
 
 .priceContainer {
@@ -583,137 +596,82 @@ h3 {
     align-items: center;
 }
 
-.shirtCard:hover {
-    background-size: cover;
-    background-position: center;
-    width: 460px;
-    background-image: url(https://firebasestorage.googleapis.com/v0/b/poer-acb1a.appspot.com/o/BlancaDet-removebg-preview.png?alt=media&token=38ba3c56-ba8a-4879-88de-f86b3ac1b904);
-}
-
 .SecondshirtCard {
-    background-image: url(https://firebasestorage.googleapis.com/v0/b/poer-acb1a.appspot.com/o/NegraDel-removebg-preview.png?alt=media&token=bbda5c50-129c-462c-9ff3-6729499306bd);
+    background-image: url(https://firebasestorage.googleapis.com/v0/b/poer-acb1a.appspot.com/o/PantalonNegro.png?alt=media&token=fee1bd0c-c3e8-4331-a957-2a8c98850416);
+    background-position: center;
+    background-size: 300px;
     width: 460px;
     height: 500px;
     background-position: center;
     background-repeat: no-repeat;
     display: flex;
     align-items: flex-end;
-}
-
-.SecondshirtCard:hover {
-    cursor: pointer;
-    background-size: cover;
-    background-position: center;
-    width: 460px;
-    background-image: url(https://firebasestorage.googleapis.com/v0/b/poer-acb1a.appspot.com/o/NegraDet-removebg-preview.png?alt=media&token=d708d9de-2217-4498-bb55-d6600fa9eb7e);
 }
 
 .ThirdshirtCard {
-    background-image: url(https://firebasestorage.googleapis.com/v0/b/poer-acb1a.appspot.com/o/PoloDelante-removebg-preview.png?alt=media&token=c00d1604-fe9a-4978-8b6f-a1e8a0371c17);
+    background-image: url(https://firebasestorage.googleapis.com/v0/b/poer-acb1a.appspot.com/o/pantasss.png?alt=media&token=3f58fe46-4fe8-440c-a1c5-390787006ee8);
+    background-size: 350px;
     width: 460px;
     height: 500px;
     background-position: center;
     background-repeat: no-repeat;
     display: flex;
     align-items: flex-end;
-}
-
-.ThirdshirtCard:hover {
-    cursor: pointer;
-    background-size: cover;
-    background-position: center;
-    width: 460px;
-    background-image: url(https://firebasestorage.googleapis.com/v0/b/poer-acb1a.appspot.com/o/PoloDetras-removebg-preview.png?alt=media&token=32fae127-2ad3-4b0f-8f34-c68e1e903600);
 }
 
 .FourshirtCard {
-    background-image: url(https://firebasestorage.googleapis.com/v0/b/poer-acb1a.appspot.com/o/PoloBlancoDel1-removebg-preview.png?alt=media&token=8d5c2d3e-ae5f-44cf-a0d4-c5591e247ccd);
+    background-image: url(https://es.louisvuitton.com/images/is/image/lv/1/PP_VP_L/louis-vuitton-vaqueros-estampados-pr%C3%AAt-%C3%A0-porter--HMD72WJ85MU1_PM2_Front%20view.png?wid=1240&hei=1240);
+    background-size: 350px;
     width: 460px;
     height: 500px;
     background-position: center;
     background-repeat: no-repeat;
     display: flex;
     align-items: flex-end;
-}
-
-.FourshirtCard:hover {
-    cursor: pointer;
-    background-size: cover;
-    background-position: center;
-    width: 460px;
-    background-image: url(https://firebasestorage.googleapis.com/v0/b/poer-acb1a.appspot.com/o/PoloBlancoDet-removebg-preview.png?alt=media&token=68662256-7e10-43f2-85ea-b4f961e42e1a);
 }
 
 .FifthshirtCard {
-    background-image: url(https://firebasestorage.googleapis.com/v0/b/poer-acb1a.appspot.com/o/SudaNegraDelante-removebg-preview.png?alt=media&token=7a88ba44-3662-488d-baf0-26531d346bfc);
+    background-image: url(https://es.louisvuitton.com/images/is/image/lv/1/PP_VP_L/louis-vuitton-pantalones-cortos-lvxnba-strategic-flowers--HLY19WDM0900_PM2_Front%20view.png?wid=656&hei=656);
+    background-size: 400px;
     width: 460px;
     height: 500px;
     background-position: center;
     background-repeat: no-repeat;
     display: flex;
     align-items: flex-end;
-}
-
-.FifthshirtCard:hover {
-    cursor: pointer;
-    background-size: cover;
-    background-position: center;
-    width: 460px;
-    background-image: url(https://firebasestorage.googleapis.com/v0/b/poer-acb1a.appspot.com/o/SudaNegraDetras.png?alt=media&token=1591cb62-7e32-4b3c-b635-0c53e64138dd );
 }
 
 .SixshirtCard {
-    background-image: url(https://firebasestorage.googleapis.com/v0/b/poer-acb1a.appspot.com/o/JerseyDel-removebg-previewV.png?alt=media&token=3cd5e735-5180-408f-a58f-f94880e02ccd);
+    background-image: url(https://es.louisvuitton.com/images/is/image/lv/1/PP_VP_L/louis-vuitton-ba%C3%B1ador-lvse--HJW52WOSJ221_PM2_Front%20view.png?wid=656&hei=656);
+    background-size: 400px;
     width: 460px;
     height: 500px;
     background-position: center;
     background-repeat: no-repeat;
     display: flex;
     align-items: flex-end;
-}
-
-.SixshirtCard:hover {
-    cursor: pointer;
-    background-size: cover;
-    background-position: center;
-    width: 460px;
-    background-image: url(https://firebasestorage.googleapis.com/v0/b/poer-acb1a.appspot.com/o/JerseyDet-removebg-preview.png?alt=media&token=2ec335fe-7a7e-47e9-9a86-2ffe30db676d);
 }
 
 .SevenshirtCard {
-    background-image: url(https://firebasestorage.googleapis.com/v0/b/poer-acb1a.appspot.com/o/SudaDel-removebg-preview.png?alt=media&token=46644f1e-0caa-40c3-a190-50bead3d5ad7);
+    background-image: url(https://es.louisvuitton.com/images/is/image/lv/1/PP_VP_L/louis-vuitton-pantal%C3%B3n-tipo-pijama--HKFP1WZQM652_PM2_Front%20view.png?wid=656&hei=656);
+    background-size: 350px;
     width: 460px;
     height: 500px;
     background-position: center;
     background-repeat: no-repeat;
     display: flex;
     align-items: flex-end;
-}
-
-.SevenshirtCard:hover {
-    cursor: pointer;
-    background-size: cover;
-    background-position: center;
-    width: 460px;
-    background-image: url(https://firebasestorage.googleapis.com/v0/b/poer-acb1a.appspot.com/o/SudaDet-removebg-preview.png?alt=media&token=4a787e61-3018-4b6a-9519-312c8d29510d);
 }
 
 .EightshirtCard {
-    background-image: url(https://firebasestorage.googleapis.com/v0/b/poer-acb1a.appspot.com/o/JerseyDel-removebg-preview.png?alt=media&token=e3bf88b5-ae2a-4f64-8bd3-39c2b0793977);
+    background-image: url(https://es.louisvuitton.com/images/is/image/lv/1/PP_VP_L/louis-vuitton-pantal%C3%B3n-con-raya-diplom%C3%A1tica--HLP66WGA3631_PM2_Front%20view.png?wid=656&hei=656);
+    background-size: 350px;
     width: 460px;
     height: 500px;
     background-position: center;
     background-repeat: no-repeat;
     display: flex;
     align-items: flex-end;
-}
-
-.EightshirtCard:hover {
-    cursor: pointer;
-    background-size: cover;
-    background-position: center;
-    width: 460px;
-    background-image: url(https://firebasestorage.googleapis.com/v0/b/poer-acb1a.appspot.com/o/JerseyDet-removebg-previewN.png?alt=media&token=4e321eb7-e4d4-4026-ad6e-b2445a4561f4);
 }
 
 
