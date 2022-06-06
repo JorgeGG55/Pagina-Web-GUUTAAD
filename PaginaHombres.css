@@ -1,8 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Fira+Sans:wght@100;200;300;400;500;600;700;800;900&family=Playfair+Display&display=swap');
 
 .headerTop {
-    background-color: white;
-    height: auto;
+    background-color: transparent;
+    height: 100px;
     width: 100%;
     position: fixed;
     top: 0;
@@ -14,7 +14,6 @@
     box-sizing: border-box;
     transition: 0.7s;
     z-index: 999;
-    
 }
 
 .firstHeader {
@@ -66,7 +65,8 @@ h1 {
     margin: 0;
     font-size: calc(1.375rem + 1.5vw);
     font-weight: 500;
-    font-size: 40px;    
+    font-size: 40px; 
+    cursor: pointer;   
 }
 
 .title {
@@ -524,7 +524,10 @@ section {
 }
 
 .shirtCard {
-    background-image: url(https://firebasestorage.googleapis.com/v0/b/poer-acb1a.appspot.com/o/camiseta%20blanca.jpg?alt=media&token=219b66eb-9eee-4f7d-941f-0b679ab74ca8);
+    background-image: url(https://firebasestorage.googleapis.com/v0/b/poer-acb1a.appspot.com/o/BlancaDel-removebg-preview.png?alt=media&token=5b4e065f-019c-463c-89e6-4be1028744d1);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
     width: 430px;
     height: 580px;
     transition: 0.5s;

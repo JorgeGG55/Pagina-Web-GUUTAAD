@@ -70,8 +70,11 @@ h1 {
 }
 
 .title {
-    display: flex;
-    align-items: center;
+    font-family: 'Times New Roman', Times, serif;
+    margin: 0;
+    margin-top: 5%;
+    margin-right: 2%;
+    width: 350px;
 }
 
 .homeButton {
