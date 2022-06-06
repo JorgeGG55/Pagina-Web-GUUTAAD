@@ -512,7 +512,7 @@ h3 {
 }
 
 section {
-    margin-top: 220px;
+    margin-top: 180px;
     padding-right: 100px;
     padding-left: 100px;
 }
@@ -526,7 +526,7 @@ section {
 .shirtCard {
     background-image: url(https://firebasestorage.googleapis.com/v0/b/poer-acb1a.appspot.com/o/camiseta%20blanca.jpg?alt=media&token=219b66eb-9eee-4f7d-941f-0b679ab74ca8);
     width: 430px;
-    height: 600px;
+    height: 580px;
     transition: 0.5s;
 }
 
@@ -541,7 +541,7 @@ section {
     background-position: center;
     background-size: cover;
     background-color: white;
-    height: 600px;
+    height: 580px;
     transition: 0.5s;
 }
 
@@ -553,7 +553,7 @@ section {
 .accesoriesCard {
     background-image: url(https://firebasestorage.googleapis.com/v0/b/poer-acb1a.appspot.com/o/accesorios.jpg?alt=media&token=ece2cf65-19f0-45bb-93b5-86bfc6a71c68);
     width: 430px;
-    height: 600px;
+    height: 580px;
     transition: 0.5s;
 }
 
