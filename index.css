@@ -998,7 +998,7 @@ li {
     }
 }
 
-@media (max-width: 320px) {
+@media screen and (max-width: 380px) {
     .videoText {
         letter-spacing: 5px;
         margin-left: 20px;
