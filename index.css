@@ -326,7 +326,7 @@ h1 {
     left: 0;
     width: 20%;
     height: 20%;
-    margin-left: 1500px;
+    margin-left: 1220px;
     box-sizing: border-box;
     position: fixed;
 }
@@ -347,7 +347,7 @@ h1 {
     width: 350px;
     height: 200px;
     position: absolute;
-    margin-left: 1400px;
+    margin-left: 1000px;
 }
 
 .thirdSidebar.open {
