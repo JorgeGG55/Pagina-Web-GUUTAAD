@@ -79,6 +79,7 @@ h1 {
     margin-top: 5%;
     margin-right: 2%;
     width: 350px;
+    cursor: pointer;
 }
 
 .homeButton {
