@@ -2,7 +2,7 @@
 
 .headerTop {
     background-color: white;
-    height: auto;
+    height: 100px;
     width: 100%;
     position: fixed;
     top: 0;
@@ -14,7 +14,6 @@
     box-sizing: border-box;
     transition: 0.7s;
     z-index: 999;
-    border-bottom: 2px solid black;
 }
 
 .firstHeader {
@@ -56,7 +55,6 @@ nav {
 
 body {
     background-color: white;
-    background-size: 500px;
     margin: 0;
     font-family: 'Fira Sans', sans-serif;
 }
@@ -67,13 +65,17 @@ h1 {
     margin: 0;
     font-size: calc(1.375rem + 1.5vw);
     font-weight: 500;
-    font-size: 40px;    
+    font-size: 20px;
     cursor: pointer;
 }
 
 .title {
-    display: flex;
-    align-items: center;
+    font-family: 'Times New Roman', Times, serif;
+    margin: 0;
+    margin-top: 5%;
+    margin-right: 2%;
+    width: 350px;
+    font-size: 40px;
 }
 
 .homeButton {
@@ -150,7 +152,7 @@ h1 {
 .FAQS {
     display: flex;
     justify-content: space-between;
-    width: 230px;
+    width: 150px;
     margin-top: 30px;
     margin-right: 20px;
     align-items: center;
@@ -176,6 +178,12 @@ h1 {
     margin-left: 8px;
     margin-right: 8px;
     cursor: pointer;
+}
+
+.cardsContainer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
 
@@ -452,7 +460,7 @@ h2 {
     justify-content: space-between;
     flex-direction: row;
     padding: 10px;
-}   
+}
 
 .genderStyle {
     display: flex;
@@ -526,38 +534,277 @@ h3 {
     margin-top: 50px;
     opacity: 30%;
 }
-.CardsContainer{
-    background-color:red;
-    width: 100%;
-    height: 550px;
-}
-.TopCardWomen{
-    background-image: url(https://firebasestorage.googleapis.com/v0/b/poer-acb1a.appspot.com/o/louis-vuitton-camiseta-pixel-damier-pr%C3%AAt-%C3%A0-porter--FNTS08NX8004_PM2_Front%20view.png?alt=media&token=a3cb12d3-8be1-4ada-9391-a2ca62315505);
-    width: 460px;
-    height: 500px;
-    background-position: center;
-    background-repeat: no-repeat;
-}
 
-.TopCardWomen2{
-    background-image: url(https://firebasestorage.googleapis.com/v0/b/poer-acb1a.appspot.com/o/louis-vuitton-camiseta-pixel-damier-pr%C3%AAt-%C3%A0-porter--FNTS08NX8004_PM2_Front%20view.png?alt=media&token=a3cb12d3-8be1-4ada-9391-a2ca62315505);
-    width: 460px;
-    height: 500px;
-    background-position: center;
-    background-repeat: no-repeat;
+.sectionBackground {
+    background-color: white;
+    margin-top: 80px;
+    padding-right: 100px;
+    padding-left: 100px;
+    margin-top: 50px;
 
 }
-.TopCardWomen3{
-    background-image: url(https://firebasestorage.googleapis.com/v0/b/poer-acb1a.appspot.com/o/louis-vuitton-camiseta-pixel-damier-pr%C3%AAt-%C3%A0-porter--FNTS08NX8004_PM2_Front%20view.png?alt=media&token=a3cb12d3-8be1-4ada-9391-a2ca62315505);
-    width: 460px;
-    height: 500px;
-    background-position: center;
-    background-repeat: no-repeat;
+
+.section{
+    background-color: white;
+    padding-right: 100px;
+    padding-left: 100px;
 }
-.TopCardWomen4{
+
+.cardsContainer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.shirtCard {
     background-image: url(https://firebasestorage.googleapis.com/v0/b/poer-acb1a.appspot.com/o/louis-vuitton-camiseta-pixel-damier-pr%C3%AAt-%C3%A0-porter--FNTS08NX8004_PM2_Front%20view.png?alt=media&token=a3cb12d3-8be1-4ada-9391-a2ca62315505);
+    width: 460px;
+    height: 500px;
+    background-size: 500px;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: flex-end;
+}
+
+.priceContainer {
+    padding: 10px;
+    margin-top: 20px;
+}
+
+.priceText {
+    margin-left: 80px;
+}
+
+.nameContainer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.cartContainer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.SecondshirtCard {
+    background-image: url(https://firebasestorage.googleapis.com/v0/b/poer-acb1a.appspot.com/o/louis-vuitton-camiseta-con-lazada-lv-match-damier-pr%C3%AAt-%C3%A0-porter--FNTS32O95322_PM2_Front%20viewbeuna.png?alt=media&token=934e3901-26c8-4852-bb41-7125dea0371b);
+    width: 460px;
+    height: 600px;
+    background-size: 500px;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: flex-end;
+}
+
+
+
+.ThirdshirtCard {
+    background-image: url(https://firebasestorage.googleapis.com/v0/b/poer-acb1a.appspot.com/o/PoloDelante-removebg-preview.png?alt=media&token=c00d1604-fe9a-4978-8b6f-a1e8a0371c17);
     width: 460px;
     height: 500px;
     background-position: center;
     background-repeat: no-repeat;
+    display: flex;
+    align-items: flex-end;
+}
+
+
+
+.FourshirtCard {
+    background-image: url(https://firebasestorage.googleapis.com/v0/b/poer-acb1a.appspot.com/o/PoloBlancoDel1-removebg-preview.png?alt=media&token=8d5c2d3e-ae5f-44cf-a0d4-c5591e247ccd);
+    width: 460px;
+    height: 500px;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: flex-end;
+}
+
+
+
+.FifthshirtCard {
+    background-image: url(https://firebasestorage.googleapis.com/v0/b/poer-acb1a.appspot.com/o/SudaNegraDelante-removebg-preview.png?alt=media&token=7a88ba44-3662-488d-baf0-26531d346bfc);
+    width: 460px;
+    height: 500px;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: flex-end;
+}
+
+
+
+.SixshirtCard {
+    background-image: url(https://firebasestorage.googleapis.com/v0/b/poer-acb1a.appspot.com/o/JerseyDel-removebg-previewV.png?alt=media&token=3cd5e735-5180-408f-a58f-f94880e02ccd);
+    width: 460px;
+    height: 500px;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: flex-end;
+}
+
+
+
+.SevenshirtCard {
+    background-image: url(https://firebasestorage.googleapis.com/v0/b/poer-acb1a.appspot.com/o/SudaDel-removebg-preview.png?alt=media&token=46644f1e-0caa-40c3-a190-50bead3d5ad7);
+    width: 460px;
+    height: 500px;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: flex-end;
+}
+
+
+.EightshirtCard {
+    background-image: url(https://firebasestorage.googleapis.com/v0/b/poer-acb1a.appspot.com/o/JerseyDel-removebg-preview.png?alt=media&token=e3bf88b5-ae2a-4f64-8bd3-39c2b0793977);
+    width: 460px;
+    height: 500px;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: flex-end;
+}
+
+
+
+.cartButton {
+    background-color: black;
+    color: white;
+    font-family: 'Fira Sans', sans-serif;
+    font-weight: bold;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
+footer {
+    background-color: black;
+    color: white;
+    padding: 50px;
+}
+
+.footContainer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.aboutUsContainer {
+    width: 30%;
+}
+
+.aboutUs {
+    font-size: 20px;
+    margin-bottom: 20px;
+    margin-right: 0;
+}
+
+.aboutUsText {
+    font-size: 15px;
+}
+
+
+.access {
+    font-size: 20px;
+    margin-bottom: 20px;
+
+}
+
+.accessText {
+    font-size: 15px;
+}
+
+li {
+    list-style: none;
+    cursor: pointer;
+}
+
+.footerImages {
+    width: 20px;
+    height: 20px;
+    margin-right: 20px;
+}
+
+.secondFootContainer {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.contact {
+    font-size: 15px;
+}
+
+.contactTitle {
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+.phone {
+    display: flex;
+    flex-direction: row;
+}
+.email {
+    display: flex;
+    flex-direction: row;
+}
+
+
+.lastText {
+    font-size: 10px;
+    margin-top: 20px;
+    margin-right: 220px;
+    font-weight: bold;
+}
+
+.inputStyleEmail {
+    border-radius: 5px;
+    background-color: rgba(245, 247, 246, 255);
+    padding: 11px;
+    font-size: 15px;
+    margin-bottom: 10px;
+    border: 1px solid;
+    border-color: black;
+    margin-bottom: 10;
+    width: 250px;
+}
+
+.emailContainer {
+    display: flex;
+    flex-direction: column;
+}
+
+.sendButton {
+    width: 250px;
+    border: none;
+    padding: 5px;
+    background-color: rgba(164,129,103,255);
+    color: black;
+    font-weight: bold;
+    border-radius: 5px;
+}
+
+.newsContainer {
+    display: flex;
+}
+
+.newsText {
+    font-size: 3vw;
+    display: flex;
+    position: absolute;
+    color: white;
+    margin-right: 200px;
+    font-family: 'Fira Sans', sans-serif;
+    font-weight: bold;
+    z-index: 999;
+    letter-spacing: 10px;
+}
+
+.emailClass {
+    margin-right: 3%;
 }

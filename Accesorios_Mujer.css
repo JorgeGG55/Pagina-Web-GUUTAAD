@@ -2,7 +2,7 @@
 
 .headerTop {
     background-color: white;
-    height: auto;
+    height: 100px;
     width: 100%;
     position: fixed;
     top: 0;
@@ -14,7 +14,6 @@
     box-sizing: border-box;
     transition: 0.7s;
     z-index: 999;
-    border-bottom: 2px solid black;
 }
 
 .firstHeader {
@@ -56,7 +55,6 @@ nav {
 
 body {
     background-color: white;
-    background-size: 500px;
     margin: 0;
     font-family: 'Fira Sans', sans-serif;
 }
@@ -67,13 +65,17 @@ h1 {
     margin: 0;
     font-size: calc(1.375rem + 1.5vw);
     font-weight: 500;
-    font-size: 40px;    
+    font-size: 20px;
     cursor: pointer;
 }
 
 .title {
-    display: flex;
-    align-items: center;
+    font-family: 'Times New Roman', Times, serif;
+    margin: 0;
+    margin-top: 5%;
+    margin-right: 2%;
+    width: 350px;
+    font-size: 40px;
 }
 
 .homeButton {
@@ -150,7 +152,7 @@ h1 {
 .FAQS {
     display: flex;
     justify-content: space-between;
-    width: 230px;
+    width: 150px;
     margin-top: 30px;
     margin-right: 20px;
     align-items: center;
@@ -176,6 +178,12 @@ h1 {
     margin-left: 8px;
     margin-right: 8px;
     cursor: pointer;
+}
+
+.cardsContainer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
 
@@ -452,7 +460,7 @@ h2 {
     justify-content: space-between;
     flex-direction: row;
     padding: 10px;
-}   
+}
 
 .genderStyle {
     display: flex;
@@ -526,9 +534,324 @@ h3 {
     margin-top: 50px;
     opacity: 30%;
 }
-.CardsContainer{
-    background-color:red;
-    width: 100%;
-    height: 550px;
+
+.sectionBackground {
+    background-color: white;
+    margin-top: 80px;
+    padding-right: 100px;
+    padding-left: 100px;
+    margin-top: 50px;
+
 }
 
+.section{
+    background-color: white;
+    padding-right: 100px;
+    padding-left: 100px;
+}
+
+.cardsContainer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.shirtCard {
+    background-image: url(https://firebasestorage.googleapis.com/v0/b/poer-acb1a.appspot.com/o/BlancaDel-removebg-preview.png?alt=media&token=5b4e065f-019c-463c-89e6-4be1028744d1);
+    width: 460px;
+    height: 500px;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: flex-end;
+}
+
+.priceContainer {
+    padding: 10px;
+    margin-top: 20px;
+}
+
+.priceText {
+    margin-left: 80px;
+}
+
+.nameContainer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.cartContainer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.shirtCard:hover {
+    background-size: cover;
+    background-position: center;
+    width: 460px;
+    background-image: url(https://firebasestorage.googleapis.com/v0/b/poer-acb1a.appspot.com/o/BlancaDet-removebg-preview.png?alt=media&token=38ba3c56-ba8a-4879-88de-f86b3ac1b904);
+}
+
+.SecondshirtCard {
+    background-image: url(https://firebasestorage.googleapis.com/v0/b/poer-acb1a.appspot.com/o/NegraDel-removebg-preview.png?alt=media&token=bbda5c50-129c-462c-9ff3-6729499306bd);
+    width: 460px;
+    height: 500px;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: flex-end;
+}
+
+.SecondshirtCard:hover {
+    cursor: pointer;
+    background-size: cover;
+    background-position: center;
+    width: 460px;
+    background-image: url(https://firebasestorage.googleapis.com/v0/b/poer-acb1a.appspot.com/o/NegraDet-removebg-preview.png?alt=media&token=d708d9de-2217-4498-bb55-d6600fa9eb7e);
+}
+
+.ThirdshirtCard {
+    background-image: url(https://firebasestorage.googleapis.com/v0/b/poer-acb1a.appspot.com/o/PoloDelante-removebg-preview.png?alt=media&token=c00d1604-fe9a-4978-8b6f-a1e8a0371c17);
+    width: 460px;
+    height: 500px;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: flex-end;
+}
+
+.ThirdshirtCard:hover {
+    cursor: pointer;
+    background-size: cover;
+    background-position: center;
+    width: 460px;
+    background-image: url(https://firebasestorage.googleapis.com/v0/b/poer-acb1a.appspot.com/o/PoloDetras-removebg-preview.png?alt=media&token=32fae127-2ad3-4b0f-8f34-c68e1e903600);
+}
+
+.FourshirtCard {
+    background-image: url(https://firebasestorage.googleapis.com/v0/b/poer-acb1a.appspot.com/o/PoloBlancoDel1-removebg-preview.png?alt=media&token=8d5c2d3e-ae5f-44cf-a0d4-c5591e247ccd);
+    width: 460px;
+    height: 500px;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: flex-end;
+}
+
+.FourshirtCard:hover {
+    cursor: pointer;
+    background-size: cover;
+    background-position: center;
+    width: 460px;
+    background-image: url(https://firebasestorage.googleapis.com/v0/b/poer-acb1a.appspot.com/o/PoloBlancoDet-removebg-preview.png?alt=media&token=68662256-7e10-43f2-85ea-b4f961e42e1a);
+}
+
+.FifthshirtCard {
+    background-image: url(https://firebasestorage.googleapis.com/v0/b/poer-acb1a.appspot.com/o/SudaNegraDelante-removebg-preview.png?alt=media&token=7a88ba44-3662-488d-baf0-26531d346bfc);
+    width: 460px;
+    height: 500px;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: flex-end;
+}
+
+.FifthshirtCard:hover {
+    cursor: pointer;
+    background-size: cover;
+    background-position: center;
+    width: 460px;
+    background-image: url(https://firebasestorage.googleapis.com/v0/b/poer-acb1a.appspot.com/o/SudaNegraDetras.png?alt=media&token=1591cb62-7e32-4b3c-b635-0c53e64138dd );
+}
+
+.SixshirtCard {
+    background-image: url(https://firebasestorage.googleapis.com/v0/b/poer-acb1a.appspot.com/o/JerseyDel-removebg-previewV.png?alt=media&token=3cd5e735-5180-408f-a58f-f94880e02ccd);
+    width: 460px;
+    height: 500px;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: flex-end;
+}
+
+.SixshirtCard:hover {
+    cursor: pointer;
+    background-size: cover;
+    background-position: center;
+    width: 460px;
+    background-image: url(https://firebasestorage.googleapis.com/v0/b/poer-acb1a.appspot.com/o/JerseyDet-removebg-preview.png?alt=media&token=2ec335fe-7a7e-47e9-9a86-2ffe30db676d);
+}
+
+.SevenshirtCard {
+    background-image: url(https://firebasestorage.googleapis.com/v0/b/poer-acb1a.appspot.com/o/SudaDel-removebg-preview.png?alt=media&token=46644f1e-0caa-40c3-a190-50bead3d5ad7);
+    width: 460px;
+    height: 500px;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: flex-end;
+}
+
+.SevenshirtCard:hover {
+    cursor: pointer;
+    background-size: cover;
+    background-position: center;
+    width: 460px;
+    background-image: url(https://firebasestorage.googleapis.com/v0/b/poer-acb1a.appspot.com/o/SudaDet-removebg-preview.png?alt=media&token=4a787e61-3018-4b6a-9519-312c8d29510d);
+}
+
+.EightshirtCard {
+    background-image: url(https://firebasestorage.googleapis.com/v0/b/poer-acb1a.appspot.com/o/JerseyDel-removebg-preview.png?alt=media&token=e3bf88b5-ae2a-4f64-8bd3-39c2b0793977);
+    width: 460px;
+    height: 500px;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: flex-end;
+}
+
+.EightshirtCard:hover {
+    cursor: pointer;
+    background-size: cover;
+    background-position: center;
+    width: 460px;
+    background-image: url(https://firebasestorage.googleapis.com/v0/b/poer-acb1a.appspot.com/o/JerseyDet-removebg-previewN.png?alt=media&token=4e321eb7-e4d4-4026-ad6e-b2445a4561f4);
+}
+
+.cartButton {
+    background-color: black;
+    color: white;
+    font-family: 'Fira Sans', sans-serif;
+    font-weight: bold;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
+footer {
+    background-color: black;
+    color: white;
+    padding: 50px;
+}
+
+.footContainer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.aboutUsContainer {
+    width: 30%;
+}
+
+.aboutUs {
+    font-size: 20px;
+    margin-bottom: 20px;
+    margin-right: 0;
+}
+
+.aboutUsText {
+    font-size: 15px;
+}
+
+
+.access {
+    font-size: 20px;
+    margin-bottom: 20px;
+
+}
+
+.accessText {
+    font-size: 15px;
+}
+
+li {
+    list-style: none;
+    cursor: pointer;
+}
+
+.footerImages {
+    width: 20px;
+    height: 20px;
+    margin-right: 20px;
+}
+
+.secondFootContainer {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.contact {
+    font-size: 15px;
+}
+
+.contactTitle {
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+.phone {
+    display: flex;
+    flex-direction: row;
+}
+.email {
+    display: flex;
+    flex-direction: row;
+}
+
+
+.lastText {
+    font-size: 10px;
+    margin-top: 20px;
+    margin-right: 220px;
+    font-weight: bold;
+}
+
+.inputStyleEmail {
+    border-radius: 5px;
+    background-color: rgba(245, 247, 246, 255);
+    padding: 11px;
+    font-size: 15px;
+    margin-bottom: 10px;
+    border: 1px solid;
+    border-color: black;
+    margin-bottom: 10;
+    width: 250px;
+}
+
+.emailContainer {
+    display: flex;
+    flex-direction: column;
+}
+
+.sendButton {
+    width: 250px;
+    border: none;
+    padding: 5px;
+    background-color: rgba(164,129,103,255);
+    color: black;
+    font-weight: bold;
+    border-radius: 5px;
+}
+
+.newsContainer {
+    display: flex;
+}
+
+.newsText {
+    font-size: 3vw;
+    display: flex;
+    position: absolute;
+    color: white;
+    margin-right: 200px;
+    font-family: 'Fira Sans', sans-serif;
+    font-weight: bold;
+    z-index: 999;
+    letter-spacing: 10px;
+}
+
+.emailClass {
+    margin-right: 3%;
+}
