@@ -557,13 +557,14 @@ h3 {
 }
 
 .shirtCard {
-    background-image: url(https://firebasestorage.googleapis.com/v0/b/poer-acb1a.appspot.com/o/BlancaDel-removebg-preview.png?alt=media&token=5b4e065f-019c-463c-89e6-4be1028744d1);
+    background-image: url(https://firebasestorage.googleapis.com/v0/b/poer-acb1a.appspot.com/o/jejejejeje.png?alt=media&token=c0e85d0d-00c3-408e-b08e-2c17f4686943);
     width: 460px;
     height: 500px;
     background-position: center;
     background-repeat: no-repeat;
     display: flex;
     align-items: flex-end;
+    background-size: 400px;
 }
 
 .priceContainer {
@@ -587,139 +588,82 @@ h3 {
     align-items: center;
 }
 
-.shirtCard:hover {
-    background-size: cover;
-    background-position: center;
-    width: 460px;
-    background-image: url(https://firebasestorage.googleapis.com/v0/b/poer-acb1a.appspot.com/o/BlancaDet-removebg-preview.png?alt=media&token=38ba3c56-ba8a-4879-88de-f86b3ac1b904);
-}
-
 .SecondshirtCard {
-    background-image: url(https://firebasestorage.googleapis.com/v0/b/poer-acb1a.appspot.com/o/NegraDel-removebg-preview.png?alt=media&token=bbda5c50-129c-462c-9ff3-6729499306bd);
+    background-image: url(https://firebasestorage.googleapis.com/v0/b/poer-acb1a.appspot.com/o/gafasnegraspiba.png?alt=media&token=4ad736b9-d414-4b1b-ba62-16de19609bf8);
     width: 460px;
     height: 500px;
     background-position: center;
     background-repeat: no-repeat;
     display: flex;
     align-items: flex-end;
-}
-
-.SecondshirtCard:hover {
-    cursor: pointer;
-    background-size: cover;
-    background-position: center;
-    width: 460px;
-    background-image: url(https://firebasestorage.googleapis.com/v0/b/poer-acb1a.appspot.com/o/NegraDet-removebg-preview.png?alt=media&token=d708d9de-2217-4498-bb55-d6600fa9eb7e);
+    background-size: 400px;
 }
 
 .ThirdshirtCard {
-    background-image: url(https://firebasestorage.googleapis.com/v0/b/poer-acb1a.appspot.com/o/PoloDelante-removebg-preview.png?alt=media&token=c00d1604-fe9a-4978-8b6f-a1e8a0371c17);
+    background-image: url(https://firebasestorage.googleapis.com/v0/b/poer-acb1a.appspot.com/o/Captura_de_pantalla_2022-05-25_134056qwewerewr-removebg-preview.png?alt=media&token=89394a45-2e8f-4158-8e77-f6f6d9adbe56);
     width: 460px;
     height: 500px;
     background-position: center;
     background-repeat: no-repeat;
     display: flex;
     align-items: flex-end;
-}
-
-.ThirdshirtCard:hover {
-    cursor: pointer;
-    background-size: cover;
-    background-position: center;
-    width: 460px;
-    background-image: url(https://firebasestorage.googleapis.com/v0/b/poer-acb1a.appspot.com/o/PoloDetras-removebg-preview.png?alt=media&token=32fae127-2ad3-4b0f-8f34-c68e1e903600);
+    background-size: 400px;
 }
 
 .FourshirtCard {
-    background-image: url(https://firebasestorage.googleapis.com/v0/b/poer-acb1a.appspot.com/o/PoloBlancoDel1-removebg-preview.png?alt=media&token=8d5c2d3e-ae5f-44cf-a0d4-c5591e247ccd);
+    background-image: url(https://firebasestorage.googleapis.com/v0/b/poer-acb1a.appspot.com/o/gorrapiba.png?alt=media&token=292b9804-98b7-4600-b3ad-7bdcce2c7f77);
     width: 460px;
     height: 500px;
     background-position: center;
     background-repeat: no-repeat;
     display: flex;
     align-items: flex-end;
-}
-
-.FourshirtCard:hover {
-    cursor: pointer;
-    background-size: cover;
-    background-position: center;
-    width: 460px;
-    background-image: url(https://firebasestorage.googleapis.com/v0/b/poer-acb1a.appspot.com/o/PoloBlancoDet-removebg-preview.png?alt=media&token=68662256-7e10-43f2-85ea-b4f961e42e1a);
+    background-size: 350px;
 }
 
 .FifthshirtCard {
-    background-image: url(https://firebasestorage.googleapis.com/v0/b/poer-acb1a.appspot.com/o/SudaNegraDelante-removebg-preview.png?alt=media&token=7a88ba44-3662-488d-baf0-26531d346bfc);
+    background-image: url(https://firebasestorage.googleapis.com/v0/b/poer-acb1a.appspot.com/o/gorropiba.png?alt=media&token=c0151a90-2663-4b7f-bf9a-75bb2c0683ee);
     width: 460px;
     height: 500px;
     background-position: center;
     background-repeat: no-repeat;
     display: flex;
     align-items: flex-end;
-}
-
-.FifthshirtCard:hover {
-    cursor: pointer;
-    background-size: cover;
-    background-position: center;
-    width: 460px;
-    background-image: url(https://firebasestorage.googleapis.com/v0/b/poer-acb1a.appspot.com/o/SudaNegraDetras.png?alt=media&token=1591cb62-7e32-4b3c-b635-0c53e64138dd );
+    background-size: 380px;
 }
 
 .SixshirtCard {
-    background-image: url(https://firebasestorage.googleapis.com/v0/b/poer-acb1a.appspot.com/o/JerseyDel-removebg-previewV.png?alt=media&token=3cd5e735-5180-408f-a58f-f94880e02ccd);
+    background-image: url(https://firebasestorage.googleapis.com/v0/b/poer-acb1a.appspot.com/o/bandana.png?alt=media&token=21f9ff52-d643-4ecc-9e79-3b617d9df540);
     width: 460px;
     height: 500px;
     background-position: center;
     background-repeat: no-repeat;
     display: flex;
     align-items: flex-end;
-}
-
-.SixshirtCard:hover {
-    cursor: pointer;
-    background-size: cover;
-    background-position: center;
-    width: 460px;
-    background-image: url(https://firebasestorage.googleapis.com/v0/b/poer-acb1a.appspot.com/o/JerseyDet-removebg-preview.png?alt=media&token=2ec335fe-7a7e-47e9-9a86-2ffe30db676d);
+    background-size: 370px;
 }
 
 .SevenshirtCard {
-    background-image: url(https://firebasestorage.googleapis.com/v0/b/poer-acb1a.appspot.com/o/SudaDel-removebg-preview.png?alt=media&token=46644f1e-0caa-40c3-a190-50bead3d5ad7);
+    background-image: url(https://firebasestorage.googleapis.com/v0/b/poer-acb1a.appspot.com/o/guantes.png?alt=media&token=637f2cfe-4504-4766-b1ad-7205dc4625b3);
     width: 460px;
     height: 500px;
     background-position: center;
     background-repeat: no-repeat;
     display: flex;
     align-items: flex-end;
-}
-
-.SevenshirtCard:hover {
-    cursor: pointer;
-    background-size: cover;
-    background-position: center;
-    width: 460px;
-    background-image: url(https://firebasestorage.googleapis.com/v0/b/poer-acb1a.appspot.com/o/SudaDet-removebg-preview.png?alt=media&token=4a787e61-3018-4b6a-9519-312c8d29510d);
+    background-size: 400px;
 }
 
 .EightshirtCard {
-    background-image: url(https://firebasestorage.googleapis.com/v0/b/poer-acb1a.appspot.com/o/JerseyDel-removebg-preview.png?alt=media&token=e3bf88b5-ae2a-4f64-8bd3-39c2b0793977);
+    background-image: url(https://firebasestorage.googleapis.com/v0/b/poer-acb1a.appspot.com/o/diadema.png?alt=media&token=65ea3bd6-12ba-4736-b2b6-14d1f59cc358);
     width: 460px;
     height: 500px;
     background-position: center;
     background-repeat: no-repeat;
     display: flex;
     align-items: flex-end;
+    background-size: 320px;
 }
-
-.EightshirtCard:hover {
-    cursor: pointer;
-    background-size: cover;
-    background-position: center;
-    width: 460px;
-    background-image: url(https://firebasestorage.googleapis.com/v0/b/poer-acb1a.appspot.com/o/JerseyDet-removebg-previewN.png?alt=media&token=4e321eb7-e4d4-4026-ad6e-b2445a4561f4);
-}
-
 .cartButton {
     background-color: black;
     color: white;
