@@ -2,6 +2,8 @@
 <html lang="en">
 
 <head>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
     <link rel="stylesheet" href="PaginaHombres.css">
     <script src="javaScript.js"></script>
 </head>
@@ -19,6 +21,10 @@
             <img class="menuImage" onclick="openSidebar()"
                 src="https://cdns.iconmonstr.com/wp-content/releases/preview/2018/240/iconmonstr-menu-thin.png" alt="">
             <div class="sidebar">
+                <div class="navButtonsContainer">
+                    <button class="navButtonsMenu" onclick="location.href='index.html'">INICIO</button>
+                    <button class="navButtonsMenu" onclick="location.href='PaginaMujeres.html'">MUJER</button>
+                </div>
                 <img class="xImage" src="https://img.icons8.com/material-rounded/24/000000/multiply--v1.png"
                     onclick="closeSidebar()">
             </div>
@@ -46,7 +52,83 @@
                 </div>
                 <img class="helpImage"
                     src="https://cdns.iconmonstr.com/wp-content/releases/preview/2018/240/iconmonstr-question-thin.png"
-                    alt="">
+                    alt="" onclick="showSecondModal()">
+                <div class="secondModal">
+                    <div class="secondContent">
+                        <div class="text">
+                            FAQS
+                            <img class="xImage" onclick="hideSencondModal()"
+                                src="https://cdns.iconmonstr.com/wp-content/releases/preview/2017/240/iconmonstr-x-mark-9.png"
+                                width="24" height="24">
+                        </div>
+                        <div class="row">
+                            <div class="col-md-6 col-lg-4 mb-4">
+                                <h6 class="mb-3 text-primary"><i class="far fa-paper-plane text-primary pe-2"></i> A
+                                    simple
+                                    question?</h6>
+                                <p>
+                                    <strong><u>Absolutely!</u></strong> We work with top payment companies which
+                                    guarantees
+                                    your
+                                    safety and
+                                    security. All billing information is stored on our payment processing partner.
+                                </p>
+                            </div>
+
+                            <div class="col-md-6 col-lg-4 mb-4">
+                                <h6 class="mb-3 text-primary"><i class="fas fa-pen-alt text-primary pe-2"></i> A
+                                    question
+                                    that
+                                    is longer then the previous one?</h6>
+                                <p>
+                                    <strong><u>Yes, it is possible!</u></strong> You can cancel your subscription
+                                    anytime in
+                                    your
+                                    account. Once the subscription is
+                                    cancelled, you will not be charged next month.
+                                </p>
+                            </div>
+
+                            <div class="col-md-6 col-lg-4 mb-4">
+                                <h6 class="mb-3 text-primary"><i class="fas fa-user text-primary pe-2"></i> A simple
+                                    question?
+                                </h6>
+                                <p>
+                                    Currently, we only offer monthly subscription. You can upgrade or cancel your
+                                    monthly
+                                    account at any time with no further obligation.
+                                </p>
+                            </div>
+
+                            <div class="col-md-6 col-lg-4 mb-4">
+                                <h6 class="mb-3 text-primary"><i class="fas fa-rocket text-primary pe-2"></i> A simple
+                                    question?
+                                </h6>
+                                <p>
+                                    Yes. Go to the billing section of your dashboard and update your payment
+                                    information.
+                                </p>
+                            </div>
+
+                            <div class="col-md-6 col-lg-4 mb-4">
+                                <h6 class="mb-3 text-primary"><i class="fas fa-home text-primary pe-2"></i> A simple
+                                    question?
+                                </h6>
+                                <p><strong><u>Unfortunately no</u>.</strong> We do not issue full or partial refunds for
+                                    any
+                                    reason.</p>
+                            </div>
+
+                            <div class="col-md-6 col-lg-4 mb-4">
+                                <h6 class="mb-3 text-primary"><i class="fas fa-book-open text-primary pe-2"></i> Another
+                                    question that is longer than usual</h6>
+                                <p>
+                                    Of course! We’re happy to offer a free plan to anyone who wants to try our service.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
                 <img class="registerImage" onclick="showModal()"
                     src="https://cdns.iconmonstr.com/wp-content/releases/preview/2018/240/iconmonstr-user-male-thin.png"
                     alt="">
@@ -173,11 +255,11 @@
     </header>
     <section>
         <div class="cardsContainer">
-            <div onclick="location.href='Parte_Arriba_hombre.html'"class="shirtCard">
+            <div onclick="location.href='Parte_Arriba_hombre.html'" class="shirtCard">
             </div>
-            <div  onclick="location.href='Parte_Abajo_hombre.html'" class="jeansShirtCard" >
+            <div onclick="location.href='Parte_Abajo_hombre.html'" class="jeansShirtCard">
             </div>
-            <div  onclick="location.href='Accesorios_hombre.html'" class="accesoriesCard">
+            <div onclick="location.href='Accesorios_hombre.html'" class="accesoriesCard">
             </div>
         </div>
     </section>

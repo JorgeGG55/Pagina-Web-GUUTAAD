@@ -14,7 +14,7 @@
             COLECCION HOMBRE 2022
         </div>
         <div class="videoButton">
-            <button class="watchButton" onclick="location.href='PaginaMujeres.html'">Ver la coleccion</button>
+            <button class="watchButton" onclick="location.href='PaginaHombres.html'">Ver la coleccion</button>
         </div>
     </div>
     <div>
@@ -59,6 +59,10 @@
             <div class="menuImage" onclick="openSidebar()">
             </div>
             <div class="sidebar">
+                <div class="navButtonsContainer">
+                    <button class="navButtonsMenu" onclick="location.href='PaginaHombres.html'">HOMBRE</button>
+                    <button class="navButtonsMenu" onclick="location.href='PaginaMujeres.html'">MUJER</button>
+                </div>
                 <img class="xImage" src="https://img.icons8.com/material-rounded/24/000000/multiply--v1.png"
                     onclick="closeSidebar()">
             </div>
@@ -83,7 +87,83 @@
                         <p class="cestText">Tu lista de deseos esta actualmente vacía</p>
                     </div>
                 </div>
-                <div class="helpImage">
+                <div class="helpImage" onclick="showSecondModal()">
+                </div>
+                <div class="secondModal">
+                    <div class="secondContent">
+                        <div class="text">
+                            FAQS
+                            <img class="xImage" onclick="hideSencondModal()"
+                                src="https://cdns.iconmonstr.com/wp-content/releases/preview/2017/240/iconmonstr-x-mark-9.png"
+                                width="24" height="24">
+                        </div>
+                        <div class="row">
+                            <div class="col-md-6 col-lg-4 mb-4">
+                                <h6 class="mb-3 text-primary"><i class="far fa-paper-plane text-primary pe-2"></i> A
+                                    simple
+                                    question?</h6>
+                                <p>
+                                    <strong><u>Absolutely!</u></strong> We work with top payment companies which
+                                    guarantees
+                                    your
+                                    safety and
+                                    security. All billing information is stored on our payment processing partner.
+                                </p>
+                            </div>
+
+                            <div class="col-md-6 col-lg-4 mb-4">
+                                <h6 class="mb-3 text-primary"><i class="fas fa-pen-alt text-primary pe-2"></i> A
+                                    question
+                                    that
+                                    is longer then the previous one?</h6>
+                                <p>
+                                    <strong><u>Yes, it is possible!</u></strong> You can cancel your subscription
+                                    anytime in
+                                    your
+                                    account. Once the subscription is
+                                    cancelled, you will not be charged next month.
+                                </p>
+                            </div>
+
+                            <div class="col-md-6 col-lg-4 mb-4">
+                                <h6 class="mb-3 text-primary"><i class="fas fa-user text-primary pe-2"></i> A simple
+                                    question?
+                                </h6>
+                                <p>
+                                    Currently, we only offer monthly subscription. You can upgrade or cancel your
+                                    monthly
+                                    account at any time with no further obligation.
+                                </p>
+                            </div>
+
+                            <div class="col-md-6 col-lg-4 mb-4">
+                                <h6 class="mb-3 text-primary"><i class="fas fa-rocket text-primary pe-2"></i> A simple
+                                    question?
+                                </h6>
+                                <p>
+                                    Yes. Go to the billing section of your dashboard and update your payment
+                                    information.
+                                </p>
+                            </div>
+
+                            <div class="col-md-6 col-lg-4 mb-4">
+                                <h6 class="mb-3 text-primary"><i class="fas fa-home text-primary pe-2"></i> A simple
+                                    question?
+                                </h6>
+                                <p><strong><u>Unfortunately no</u>.</strong> We do not issue full or partial refunds for
+                                    any
+                                    reason.</p>
+                            </div>
+
+                            <div class="col-md-6 col-lg-4 mb-4">
+                                <h6 class="mb-3 text-primary"><i class="fas fa-book-open text-primary pe-2"></i> Another
+                                    question that is longer than usual</h6>
+                                <p>
+                                    Of course! We’re happy to offer a free plan to anyone who wants to try our service.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
                 </div>
                 <div class="registerImage" onclick="showModal()">
                 </div>

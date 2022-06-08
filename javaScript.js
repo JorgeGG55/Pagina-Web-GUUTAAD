@@ -3,8 +3,18 @@ function showModal() {
     modal.classList.add('show');
 }
 
+function showSecondModal() {
+    const modal = document.querySelector('.secondModal');
+    modal.classList.add('show');
+}
+
 function hideModal() {
     const modal = document.querySelector('.modal');
+    modal.classList.remove('show');
+}
+
+function hideSencondModal() {
+    const modal = document.querySelector('.secondModal');
     modal.classList.remove('show');
 }
 
