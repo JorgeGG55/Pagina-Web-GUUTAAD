@@ -855,3 +855,79 @@ li {
 .emailClass {
     margin-right: 3%;
 }
+
+@media (max-width: 768px) {
+    .firstHeader {
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        border-top: 1px solid black;
+    }
+
+    .cardsContainer {
+        display: flex;
+        flex-direction: column;
+    }
+
+    section {
+        margin-top: 50px;
+    }
+
+    .FAQS {
+        display: none;
+    }
+
+    .searchBar {
+        display: none;
+    }
+
+    .menuImage {
+        display: flex;
+        margin-top: 10px;
+    }
+
+    .navButtons {
+        display: none;
+    }
+
+    .cardsContainer {
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .priceContainer {
+        margin-left: 75px;
+    }
+
+    .footContainer {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .aboutUsText {
+        background-position: bottom;
+
+    }
+
+    .aboutUsContainer {
+        width: auto;
+    }
+
+    .aboutUsText {
+        font-size: 10px;
+    }
+
+    .contact {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .emailContainer {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .sendButton {
+        height: 45px;
+    }
+}

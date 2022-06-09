@@ -768,12 +768,21 @@ li {
     margin-right: 3%;
 }
 
-@media (max-width: 820px) {
+@media (max-width: 768px) {
     .firstHeader {
         display: flex;
         justify-content: flex-start;
         align-items: center;
         border-top: 1px solid black;
+    }
+
+    .cardsContainer {
+        display: flex;
+        flex-direction: column;
+    }
+
+    section {
+        margin-top: 50px;
     }
 
     .FAQS {
@@ -793,12 +802,34 @@ li {
         display: none;
     }
 
-    h1 {
-        margin-left: 20px;
-        margin-bottom: 0;
+    .footContainer {
+        flex-direction: column;
+        align-items: flex-start;
     }
 
-    .carousel {
-        margin-top: 80px;
+    .aboutUsText {
+        background-position: bottom;
+
+    }
+
+    .aboutUsContainer {
+        width: auto;
+    }
+    .aboutUsText {
+        font-size: 10px;
+    }
+
+    .contact {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .emailContainer {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .sendButton {
+        height: 45px;
     }
 }
