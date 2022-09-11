@@ -136,7 +136,7 @@ h1 {
 }
 
 .registerImage {
-    background-image: url(https://firebasestorage.googleapis.com/v0/b/poer-acb1a.appspot.com/o/345123514532%C2%BA4123678.png?alt=media&token=7028c224-6238-45e2-9317-6d8a9b93aff9);
+    background-image: url(https://iconmonstr.com/wp-content/g/gd/makefg.php?i=../releases/preview/2018/png/iconmonstr-user-male-thin.png&r=255&g=255&b=255);
     background-position: center;
     background-size: cover;
     width: 24px;
@@ -147,7 +147,7 @@ h1 {
 }
 
 .headerTop:hover .registerImage {
-    background-image: url(https://firebasestorage.googleapis.com/v0/b/poer-acb1a.appspot.com/o/iconmonstr-user-male-thin-removebg-preview.png?alt=media&token=aa88ae28-5e40-4e0c-91d9-d81de9fea0e4);
+    background-image: url(https://iconmonstr.com/wp-content/g/gd/makefg.php?i=../releases/preview/2018/png/iconmonstr-user-male-thin.png&r=0&g=0&b=0);
     background-position: center;
     background-size: cover;
 }
@@ -201,7 +201,7 @@ h1 {
 .headerTop:hover .heartImage {
     background-position: center;
     background-size: cover;
-    background-image: url(https://firebasestorage.googleapis.com/v0/b/poer-acb1a.appspot.com/o/iconmonstr-heart-thin-removebg-preview.png?alt=media&token=cee58305-578d-4c55-bb42-b5b684de424b);
+    background-image: url(https://iconmonstr.com/wp-content/g/gd/makefg.php?i=../releases/preview/2018/png/iconmonstr-heart-thin.png&r=0&g=0&b=0);
 }
 
 .barra {
@@ -241,7 +241,7 @@ h1 {
 }
 
 .headerTop:hover .helpImage {
-    background-image: url(https://firebasestorage.googleapis.com/v0/b/poer-acb1a.appspot.com/o/123.png?alt=media&token=df4e58b6-333f-40fa-80a4-fbbbe70d14db);
+    background-image: url(https://iconmonstr.com/wp-content/g/gd/makefg.php?i=../releases/preview/2018/png/iconmonstr-question-thin.png&r=0&g=0&b=0);
     background-position: center;
     background-size: cover;
 }
